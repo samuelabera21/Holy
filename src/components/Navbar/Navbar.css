@@ -1,0 +1,213 @@
+/* ===============================
+   NAVBAR
+   =============================== */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+
+  background: var(--nav-bg);
+  backdrop-filter: blur(10px);
+
+  border-bottom: 1px solid var(--nav-border);
+}
+
+.theme-light .navbar {
+  backdrop-filter: none;
+}
+
+/* Container */
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.8rem 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ===============================
+   LOGO
+   =============================== */
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+
+  color: var(--nav-text);
+}
+
+.navbar-logo span {
+  font-size: 1.4rem;
+}
+
+.navbar-logo h1 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* ===============================
+   LINKS
+   =============================== */
+
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--nav-link);
+
+  position: relative;
+  padding-bottom: 4px;
+
+  transition: color 0.3s ease;
+}
+
+/* Gold underline effect */
+.navbar-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 0%;
+  height: 2px;
+  background: var(--nav-link-hover);
+
+  transition: width 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: var(--nav-link-hover);
+}
+
+.navbar-links a:hover::after {
+  width: 100%;
+}
+
+
+/* Active route */
+.navbar-links a.active {
+  color: var(--nav-link-hover);
+}
+
+.navbar-links a.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--nav-link-hover);
+}
+
+
+/* ===============================
+   RESPONSIVE
+   =============================== */
+
+/* Mobile: show hamburger, hide inline links until toggled open */
+.navbar-toggle {
+  display: none;
+  background: transparent;
+  border: none;
+  width: 40px;
+  height: 32px;
+  padding: 6px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.navbar-toggle span {
+  display: block;
+  height: 3px;
+  background: var(--nav-link);
+  margin: 5px 0;
+  border-radius: 3px;
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.language-toggle,
+.theme-toggle {
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--nav-border);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--nav-text);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 140ms ease, background 140ms ease;
+}
+
+.language-toggle:hover,
+.theme-toggle:hover {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.navbar-toggle.open span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.navbar-toggle.open span:nth-child(2) {
+  opacity: 0;
+}
+.navbar-toggle.open span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+@media (max-width: 992px) {
+  .navbar-container { padding: 0.6rem 1rem; }
+}
+
+@media (max-width: 768px) {
+  .navbar-toggle { display: block; }
+  .navbar-links { display: none; }
+
+  .navbar-links.open {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background: var(--nav-bg);
+    padding: 1rem 1.25rem 1.5rem;
+    z-index: 1100;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.35);
+    align-items: center;
+  }
+
+  .navbar-links.open a {
+    color: var(--nav-text);
+    font-size: 1.05rem;
+    padding: 8px 12px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    border-radius: 8px;
+  }
+
+  .navbar-links.open a:hover { background: rgba(244,196,48,0.06); color: var(--nav-link-hover); }
+
+  .navbar-actions {
+    order: 3;
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "videos": {
+    "breadcrumbs": {
+      "home": "መነሻ",
+      "videos": "ቪዲዮዎች"
+    },
+    "hero": {
+      "title": "ቪዲዮዎች",
+      "subtitle": "ትምህርቶች፣ ስብከቶች እና መንፈሳዊ መመሪያዎች።",
+      "cta": "ቪዲዮዎችን ይመልከቱ"
+    },
+    "section": {
+      "title": "የቅርብ ጊዜ ጭማሪዎች",
+      "loadingSubtitle": "ከቻናሉ የቅርብ ጊዜ ቪዲዮዎችን እየጫነ ነው።",
+      "subtitle": "ቪዲዮን ክፈት እና ይመልከቱ፣ ያጋሩ ወይም ተዛማጅ ትምህርቶችን ያስሱ።"
+    },
+    "status": {
+      "offlineWarning": "መስመር ውጭ ነዎት። የተቀመጡ ቪዲዮዎች እየታዩ ናቸው።",
+      "offlineError": "መስመር ውጭ ነዎት እና የተቀመጡ ቪዲዮዎች የሉም።",
+      "unavailableWarning": "YouTube አይገኝም። የተቀመጡ ቪዲዮዎች እየታዩ ናቸው።",
+      "unavailableError": "አሁን ቪዲዮዎችን ማጫን አልተቻለም።"
+    }
+  },
+  "videoDetails": {
+    "breadcrumbs": {
+      "home": "መነሻ",
+      "videos": "ቪዲዮዎች"
+    },
+    "hero": {
+      "subtitle": "ሙሉ መልእክቱን ይመልከቱ እና ተዛማጅ ቪዲዮዎችን በታች ያስሱ።"
+    },
+    "aboutTitle": "ስለ ዚህ ቪዲዮ",
+    "related": {
+      "title": "ተዛማጅ ቪዲዮዎች",
+      "subtitle": "ከቻናሉ ተጨማሪ ትምህርቶች ጋር ይቀጥሉ።"
+    },
+    "status": {
+      "loadingBreadcrumb": "በመጫን ላይ",
+      "loadingTitle": "ቪዲዮ",
+      "loadingSubtitle": "ቪዲዮው እና ዝርዝሮቹ እየተዘጋጁ ናቸው።",
+      "loadingMessage": "ቪዲዮ በመጫን ላይ...",
+      "notFoundBreadcrumb": "አልተገኘም",
+      "notFoundTitle": "ቪዲዮ አልተገኘም",
+      "notFoundSubtitle": "የተጠየቀው ቪዲዮ ሊጫን አልቻለም።",
+      "notFoundMessage": "ቪዲዮ አልተገኘም።"
+    }
+  }
+}

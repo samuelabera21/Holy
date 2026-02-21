@@ -1,0 +1,86 @@
+{
+  "holyAngels": {
+    "hero": {
+      "title": "Holy Angels",
+      "cta": "Explore the angels"
+    },
+    "toc": {
+      "ariaLabel": "Holy angels navigation",
+      "title": "On this page",
+      "all": "All angels"
+    },
+    "slider": {
+      "prevAria": "Previous angel",
+      "nextAria": "Next angel"
+    },
+    "readMore": "Read More \u2192",
+    "items": {
+      "michael": {
+        "name": "St. Michael",
+        "amharicName": "\u1245\u12f1\u1235 \u121a\u12ab\u12a4\u120d",
+        "shortDescription": "Leader of the heavenly armies and protector of the faithful.",
+        "descriptionEn": "St. Michael is the leader of the heavenly armies and protector of the faithful.",
+        "descriptionAm": "\u1245\u12f1\u1235 \u121a\u12ab\u12a4\u120d \u12e8\u1230\u121b\u12ed \u1230\u122b\u12ca\u1275 \u12a0\u1208\u1243 \u1290\u12cd\u1363 \u1208\u121d\u12a5\u1218\u1293\u1295 \u12a0\u130b\u12a5 \u12a5\u1293 \u1270\u12a8\u120b\u12ab\u12ed \u12ed\u1206\u1293\u120d\u1362"
+      },
+      "gebrel": {
+        "name": "St. Gebrel",
+        "amharicName": "\u1245\u12f1\u1235 \u1308\u1265\u122d\u12a4\u120d",
+        "shortDescription": "Leader of the heavenly armies and protector of the faithful.",
+        "descriptionEn": "St. Gebrel is the leader of the heavenly armies and protector of the faithful.",
+        "descriptionAm": "\u1245\u12f1\u1235 \u1308\u1265\u122d\u12a4\u120d \u12e8\u1230\u121b\u12ed \u1230\u122b\u12ca\u1275 \u12a0\u1208\u1243 \u1290\u12cd\u1363 \u1208\u121d\u12a5\u1218\u1293\u1295 \u12a0\u130b\u12a5 \u12a5\u1293 \u1270\u12a8\u120b\u12ab\u12ed \u12ed\u1206\u1293\u120d\u1362"
+      },
+      "rufael": {
+        "name": "St. Rufael",
+        "amharicName": "\u1245\u12f1\u1235 \u1229\u134b\u12a4\u120d",
+        "shortDescription": "Leader of the heavenly armies and protector of the faithful.",
+        "descriptionEn": "St. Rufael is the leader of the heavenly armies and protector of the faithful.",
+        "descriptionAm": "\u1245\u12f1\u1235 \u1229\u134b\u12a4\u120d \u12e8\u1230\u121b\u12ed \u1230\u122b\u12ca\u1275 \u12a0\u1208\u1243 \u1290\u12cd\u1363 \u1208\u121d\u12a5\u1218\u1293\u1295 \u12a0\u130b\u12a5 \u12a5\u1293 \u1270\u12a8\u120b\u12ab\u12ed \u12ed\u1206\u1293\u120d\u1362"
+      },
+      "raguel": {
+        "name": "St. Raguel",
+        "amharicName": "\u1245\u12f1\u1235 \u122b\u1309\u12a4\u120d",
+        "shortDescription": "Leader of the heavenly armies and protector of the faithful.",
+        "descriptionEn": "St. Raguel is the leader of the heavenly armies and protector of the faithful.",
+        "descriptionAm": "\u1245\u12f1\u1235 \u122b\u1309\u12a4\u120d \u12e8\u1230\u121b\u12ed \u1230\u122b\u12ca\u1275 \u12a0\u1208\u1243 \u1290\u12cd\u1363 \u1208\u121d\u12a5\u1218\u1293\u1295 \u12a0\u130b\u12a5 \u12a5\u1293 \u1270\u12a8\u120b\u12ab\u12ed \u12ed\u1206\u1293\u120d\u1362"
+      },
+      "fanuel": {
+        "name": "St. Fanuel",
+        "amharicName": "\u1245\u12f1\u1235 \u134b\u1291\u12a4\u120d",
+        "shortDescription": "Leader of the heavenly armies and protector of the faithful.",
+        "descriptionEn": "St. Fanuel is the leader of the heavenly armies and protector of the faithful.",
+        "descriptionAm": "\u1245\u12f1\u1235 \u134b\u1291\u12a4\u120d \u12e8\u1230\u121b\u12ed \u1230\u122b\u12ca\u1275 \u12a0\u1208\u1243 \u1290\u12cd\u1363 \u1208\u121d\u12a5\u1218\u1293\u1295 \u12a0\u130b\u12a5 \u12a5\u1293 \u1270\u12a8\u120b\u12ab\u12ed \u12ed\u1206\u1293\u120d\u1362"
+      },
+      "surafel": {
+        "name": "St. Surafel",
+        "amharicName": "\u1245\u12f1\u1235 \u1230\u122b\u1348\u120d",
+        "shortDescription": "Leader of the heavenly armies and protector of the faithful.",
+        "descriptionEn": "St. Surafel is the leader of the heavenly armies and protector of the faithful.",
+        "descriptionAm": "\u1245\u12f1\u1235 \u1230\u122b\u1348\u120d \u12e8\u1230\u121b\u12ed \u1230\u122b\u12ca\u1275 \u12a0\u1208\u1243 \u1290\u12cd\u1363 \u1208\u121d\u12a5\u1218\u1293\u1295 \u12a0\u130b\u12a5 \u12a5\u1293 \u1270\u12a8\u120b\u12ab\u12ed \u12ed\u1206\u1293\u120d\u1362"
+      },
+      "urael": {
+        "name": "St. Urael",
+        "amharicName": "\u1245\u12f1\u1235 \u12a1\u122b\u12a4\u120d",
+        "shortDescription": "Leader of the heavenly armies and protector of the faithful.",
+        "descriptionEn": "St. Urael is the leader of the heavenly armies and protector of the faithful.",
+        "descriptionAm": "\u1245\u12f1\u1235 \u12a1\u122b\u12a4\u120d \u12e8\u1230\u121b\u12ed \u1230\u122b\u12ca\u1275 \u12a0\u1208\u1243 \u1290\u12cd\u1363 \u1208\u121d\u12a5\u1218\u1293\u1295 \u12a0\u130b\u12a5 \u12a5\u1293 \u1270\u12a8\u120b\u12ab\u12ed \u12ed\u1206\u1293\u120d\u1362"
+      }
+    }
+  },
+  "holyAngelDetail": {
+    "breadcrumbs": {
+      "home": "Home",
+      "holyAngels": "Holy Angels"
+    },
+    "notFound": {
+      "breadcrumb": "Not found",
+      "title": "Angel not found",
+      "subtitle": "The requested angel could not be found."
+    },
+    "aboutTitle": "About this angel",
+    "sections": {
+      "amharic": "Amharic",
+      "english": "English"
+    },
+    "videoFallback": "Your browser does not support the video tag."
+  }
+}

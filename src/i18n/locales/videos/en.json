@@ -1,0 +1,48 @@
+{
+  "videos": {
+    "breadcrumbs": {
+      "home": "Home",
+      "videos": "Videos"
+    },
+    "hero": {
+      "title": "Videos",
+      "subtitle": "Teachings, sermons, and spiritual guidance.",
+      "cta": "Browse videos"
+    },
+    "section": {
+      "title": "Latest uploads",
+      "loadingSubtitle": "Loading the most recent videos from the channel.",
+      "subtitle": "Open a video to watch, share, or explore related lessons."
+    },
+    "status": {
+      "offlineWarning": "You are offline. Showing cached videos.",
+      "offlineError": "You are offline and no cached videos are available.",
+      "unavailableWarning": "YouTube is unavailable. Showing cached videos.",
+      "unavailableError": "Unable to load videos right now."
+    }
+  },
+  "videoDetails": {
+    "breadcrumbs": {
+      "home": "Home",
+      "videos": "Videos"
+    },
+    "hero": {
+      "subtitle": "Watch the full message and explore related videos below."
+    },
+    "aboutTitle": "About this video",
+    "related": {
+      "title": "Related Videos",
+      "subtitle": "Continue learning with more teachings from the channel."
+    },
+    "status": {
+      "loadingBreadcrumb": "Loading",
+      "loadingTitle": "Video",
+      "loadingSubtitle": "Preparing the video and details.",
+      "loadingMessage": "Loading video...",
+      "notFoundBreadcrumb": "Not found",
+      "notFoundTitle": "Video not found",
+      "notFoundSubtitle": "The requested video could not be loaded.",
+      "notFoundMessage": "Video not found."
+    }
+  }
+}

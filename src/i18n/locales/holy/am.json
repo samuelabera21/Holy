@@ -1,0 +1,86 @@
+{
+  "holyAngels": {
+    "hero": {
+      "title": "ቅዱሳን መላእክት",
+      "cta": "መላእክትን ያስሱ"
+    },
+    "toc": {
+      "ariaLabel": "የመላእክት አሰሳ",
+      "title": "በዚህ ገፅ",
+      "all": "ሁሉም መላእክት"
+    },
+    "slider": {
+      "prevAria": "የቀዳሚ መላእክት",
+      "nextAria": "የቀጣይ መላእክት"
+    },
+    "readMore": "ተጨማሪ →",
+    "items": {
+      "michael": {
+        "amharicName": "ቅዱስ ሚካኤል",
+        "name": "St. Michael",
+        "shortDescription": "የሰማይ ሠራዊት አለቃና የምእመናን ጠባቂ።",
+        "descriptionAm": "ቅዱስ ሚካኤል የሰማይ ሠራዊት አለቃ ነው፣ ለምእመናን አጋዥ እና ተከላካይ ይሆናል።",
+        "descriptionEn": "St. Michael is the leader of the heavenly armies and protector of the faithful."
+      },
+      "gebrel": {
+        "amharicName": "ቅዱስ ገብርኤል",
+        "name": "St. Gebrel",
+        "shortDescription": "የሰማይ ሠራዊት አለቃና የምእመናን ጠባቂ።",
+        "descriptionAm": "ቅዱስ ገብርኤል የሰማይ ሠራዊት አለቃ ነው፣ ለምእመናን አጋዥ እና ተከላካይ ይሆናል።",
+        "descriptionEn": "St. Gebrel is the leader of the heavenly armies and protector of the faithful."
+      },
+      "rufael": {
+        "amharicName": "ቅዱስ ሩፋኤል",
+        "name": "St. Rufael",
+        "shortDescription": "የሰማይ ሠራዊት አለቃና የምእመናን ጠባቂ።",
+        "descriptionAm": "ቅዱስ ሩፋኤል የሰማይ ሠራዊት አለቃ ነው፣ ለምእመናን አጋዥ እና ተከላካይ ይሆናል።",
+        "descriptionEn": "St. Rufael is the leader of the heavenly armies and protector of the faithful."
+      },
+      "raguel": {
+        "amharicName": "ቅዱስ ራጉኤል",
+        "name": "St. Raguel",
+        "shortDescription": "የሰማይ ሠራዊት አለቃና የምእመናን ጠባቂ።",
+        "descriptionAm": "ቅዱስ ራጉኤል የሰማይ ሠራዊት አለቃ ነው፣ ለምእመናን አጋዥ እና ተከላካይ ይሆናል።",
+        "descriptionEn": "St. Raguel is the leader of the heavenly armies and protector of the faithful."
+      },
+      "fanuel": {
+        "amharicName": "ቅዱስ ፋኑኤል",
+        "name": "St. Fanuel",
+        "shortDescription": "የሰማይ ሠራዊት አለቃና የምእመናን ጠባቂ።",
+        "descriptionAm": "ቅዱስ ፋኑኤል የሰማይ ሠራዊት አለቃ ነው፣ ለምእመናን አጋዥ እና ተከላካይ ይሆናል።",
+        "descriptionEn": "St. Fanuel is the leader of the heavenly armies and protector of the faithful."
+      },
+      "surafel": {
+        "amharicName": "ቅዱስ ሰራፈል",
+        "name": "St. Surafel",
+        "shortDescription": "የሰማይ ሠራዊት አለቃና የምእመናን ጠባቂ።",
+        "descriptionAm": "ቅዱስ ሰራፈል የሰማይ ሠራዊት አለቃ ነው፣ ለምእመናን አጋዥ እና ተከላካይ ይሆናል።",
+        "descriptionEn": "St. Surafel is the leader of the heavenly armies and protector of the faithful."
+      },
+      "urael": {
+        "amharicName": "ቅዱስ ኡራኤል",
+        "name": "St. Urael",
+        "shortDescription": "የሰማይ ሠራዊት አለቃና የምእመናን ጠባቂ።",
+        "descriptionAm": "ቅዱስ ኡራኤል የሰማይ ሠራዊት አለቃ ነው፣ ለምእመናን አጋዥ እና ተከላካይ ይሆናል።",
+        "descriptionEn": "St. Urael is the leader of the heavenly armies and protector of the faithful."
+      }
+    }
+  },
+  "holyAngelDetail": {
+    "breadcrumbs": {
+      "home": "መነሻ",
+      "holyAngels": "ቅዱሳን መላእክት"
+    },
+    "notFound": {
+      "breadcrumb": "አልተገኘም",
+      "title": "መላእክት አልተገኘም",
+      "subtitle": "የተጠየቀው መላእክት አልተገኘም።"
+    },
+    "aboutTitle": "ስለ ዚህ መላእክት",
+    "sections": {
+      "amharic": "አማርኛ",
+      "english": "እንግሊዝኛ"
+    },
+    "videoFallback": "የእርስዎ አሳሽ የቪዲዮ መለያን አይደግፍም።"
+  }
+}

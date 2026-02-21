@@ -1,0 +1,44 @@
+/* Global reveal animations for scroll
+   - Subtle, dignified transitions suited for religious site
+   - Elements get `reveal-item` initially and `in-view` when they enter viewport
+*/
+
+:root{
+  --reveal-distance: 22px;
+  --reveal-duration: 560ms;
+  --reveal-ease: cubic-bezier(.15,.9,.2,1);
+  --reveal-fade: 0.02;
+}
+
+/* Respect reduced motion in CSS too */
+@media (prefers-reduced-motion: reduce) {
+  .reveal-item { transition: none !important; opacity: 1 !important; transform: none !important; }
+}
+
+.reveal-item {
+  opacity: 0;
+  transform: translateY(var(--reveal-distance));
+  transition: opacity var(--reveal-duration) var(--reveal-ease), transform var(--reveal-duration) var(--reveal-ease);
+  will-change: opacity, transform;
+}
+
+.reveal-item.in-view {
+  opacity: 1;
+  transform: none;
+}
+
+/* Slight directional variation for larger, wider elements */
+.reveal-item.wide {
+  transform: translateY(calc(var(--reveal-distance) * 0.6));
+}
+
+/* subtle slow fade for text-heavy elements */
+.reveal-item.text-slow { transition-duration: 760ms; }
+
+/* make image fades slightly faster */
+.reveal-item.img-fast { transition-duration: 420ms; }
+
+/* keep the effect tasteful: reduce translate on small screens */
+@media (max-width: 768px) {
+  :root{ --reveal-distance: 12px; }
+}

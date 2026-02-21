@@ -1,0 +1,60 @@
+{
+  "home": {
+    "hero": {
+      "title": "Our Mother <1/> Ethiopian Orthodox Tewahedo Church",
+      "subtitle": "Learn the teachings of the Church and serve with devotion.",
+      "socials": {
+        "facebook": "Facebook",
+        "youtube": "YouTube",
+        "telegram": "Telegram"
+      }
+    },
+    "quote": {
+      "text": "\u201cGod is our refuge and strength.\u201d",
+      "source": "\u2014 Psalm 46:1"
+    },
+    "events": {
+      "title": "Church Festivals",
+      "subtitle": "Major feast days and celebrations of the Church.",
+      "readMore": "Read More",
+      "items": {
+        "1": {
+          "title": "Enkutatash (Ethiopian New Year)",
+          "desc": " Enkutatash (Ethiopian New Year) is celebrated on Meskerem 1 (September 11/12), marking the end of the rainy season and the beginning of the harvest season. The name 'Enkutatash' is said to mean 'gift of jewels' or 'flower for the new year,' referring to the tradition of giving flowers (especially the Adey Abeba) during this time. The Ethiopian New Year is a time of joy, hope, and renewal, with families gathering to celebrate with traditional foods and festivities.",
+          "date": "Meskerem 1"
+        },
+        "2": {
+          "title": "Meskel",
+          "desc": "Commemoration of the discovery of the True Cross.",
+          "date": "Meskerem 17"
+        },
+        "3": {
+          "title": "Genna",
+          "desc": "Celebration of the birth of our Lord Jesus Christ.",
+          "date": "Tahsas 29"
+        },
+        "4": {
+          "title": "Timket",
+          "desc": "Celebration of the baptism of our Lord in the Jordan River.",
+          "date": "Tir 11"
+        }
+      }
+    },
+    "community": {
+      "title": "Community of the Faithful",
+      "body": "Within the Orthodox Church community, faith, love, and service live together. Believers draw near to God through prayer, sacred tradition, and praise, and they connect with one another in love. The community is a place of spiritual growth, serving those in need, spreading peace, and living the Gospel in daily life. Here, people strengthen their faith and come to God together.",
+      "cta": "Learn here"
+    },
+    "values": {
+      "title": "Church",
+      "items": {
+        "faith": "Faith",
+        "hope": "Hope",
+        "love": "Love",
+        "word": "Word",
+        "truth": "Truth",
+        "honor": "Honor"
+      }
+    }
+  }
+}

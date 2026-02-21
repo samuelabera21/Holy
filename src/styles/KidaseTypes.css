@@ -1,0 +1,202 @@
+/* PAGE */
+.kidase-page {
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;           /* ✅ allow scrolling */
+  font-family: "Segoe UI", system-ui, sans-serif;
+  color: #fff;
+}
+
+/* BACKGROUND VIDEO */
+.bg-video {
+  position: fixed;            /* ✅ fixed = always behind */
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* OVERLAY */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.65),
+    rgba(0, 0, 0, 0.8)
+  );
+  z-index: 1;
+}
+
+/* CONTENT */
+.kidase-content {
+  position: relative;
+  z-index: 2;
+
+  min-height: 100vh;
+  padding: 4rem 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;   /* ✅ NOT center */
+  text-align: center;
+}
+
+/* TITLE */
+.kidase-content h1 {
+  font-size: 3rem;
+  margin-bottom: 0.3rem;
+  letter-spacing: 1px;
+}
+
+.kidase-content p {
+  opacity: 0.85;
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+}
+
+/* GRID */
+.kidase-types {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* Controls */
+.kidase-controls { width: 100%; max-width: 900px; display:flex; justify-content:flex-end; margin-bottom:1rem; }
+.kidase-search {
+  width: 260px;
+  max-width: 100%;
+  padding: 0.6rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.04);
+  color: #fff;
+  outline: none;
+}
+.kidase-search::placeholder { color: rgba(255,255,255,0.6); }
+
+/* CARD */
+.kidase-card {
+  text-decoration: none;
+  color: #fff;
+
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  border-radius: 18px;
+  padding: 1.2rem;
+
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  transition: all 0.3s ease;
+}
+.kidase-card {
+  text-decoration: none;
+  color: #fff;
+
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  border-radius: 18px;
+  padding: 0.75rem;
+
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: all 0.28s ease;
+  display:flex;
+  flex-direction:column;
+}
+
+/* IMAGE */
+.kidase-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+.card-media { display:none; }
+.kidase-card > img { width:100%; height:160px; object-fit:cover; border-radius:12px; display:block; }
+
+/* TEXT */
+.kidase-card h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.card-body { padding: 0.6rem 0.4rem; display:flex; flex-direction:column; gap:0.6rem; }
+.card-body h3 { font-size: 1.25rem; font-weight: 700; margin:0; color:#fff; }
+.card-desc { font-size:0.95rem; color:rgba(255,255,255,0.85); margin:0; }
+.card-meta { display:flex; align-items:center; justify-content:space-between; gap:0.5rem; }
+.badge { background: rgba(255,255,255,0.06); color:#fff; padding:6px 10px; border-radius:999px; font-size:0.85rem; }
+.start-btn { background:#d4af37; color:#111; padding:8px 12px; border-radius:999px; text-decoration:none; font-weight:600; }
+
+
+/* HOVER */
+.kidase-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.45);
+}
+.kidase-card:hover {
+  transform: translateY(-6px);
+  background: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.45);
+}
+
+/* PAGINATION */
+.kidase-pagination {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* pagination divider (UX clarity) */
+.kidase-pagination::before {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: rgba(255,255,255,0.3);
+  margin: 0 auto 1.5rem;
+}
+
+/* BUTTONS */
+.kidase-pagination button {
+  padding: 0.7rem 1.8rem;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #111;
+  border: none;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.kidase-pagination button:hover:not(:disabled) {
+  background: #d4af37;
+  transform: translateY(-2px);
+}
+
+.kidase-pagination button:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.kidase-pagination span {
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .kidase-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .kidase-card img {
+    height: 150px;
+  }
+}

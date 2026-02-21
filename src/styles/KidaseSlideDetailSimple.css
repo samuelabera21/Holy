@@ -1,0 +1,27 @@
+/* Slide detail styles aligned with KidaseTypesSimple */
+.kidase-slide-simple .ks-main{ display:flex; flex-direction:column; gap:18px; align-items:center }
+.kidase-slide-simple .ks-figure{ margin:0; background:var(--card-bg); padding:18px; border-radius:12px; box-shadow:0 10px 24px rgba(0,0,0,0.2); border:1px solid var(--card-border) }
+
+/* Image: keep aspect ratio, avoid cropping, scale down to fit viewport but allow vertical scroll */
+.ks-image{ display:block; max-width:100%; width:auto; height:auto; object-fit:contain }
+.ks-figure{ max-width:960px }
+.ks-credit{ text-align:center; color:var(--muted); margin-top:10px; font-size:14px }
+
+.ks-audio{ margin-top:8px }
+.ks-audio audio{ display:none }
+
+.ks-controls{ display:flex; gap:10px; align-items:center; flex-wrap:wrap; justify-content:center }
+.ks-controls button{ padding:8px 12px; border-radius:8px; border:1px solid var(--card-border); background:var(--card-bg); color:var(--text-strong); cursor:pointer }
+.ks-controls .ks-time{ color:var(--muted); font-size:13px; margin:0 6px }
+.ks-controls .ks-volume input[type="range"]{ width:120px }
+.ks-download{ padding:8px 10px; background:var(--accent); color:var(--accent-contrast); border-radius:6px; text-decoration:none }
+
+.ks-nav{ display:flex; gap:12px; justify-content:center; margin-top:12px }
+.ks-nav button{ padding:8px 14px; border-radius:8px; border:1px solid var(--card-border); background:var(--card-bg); color:var(--text-strong); cursor:pointer }
+.ks-nav button:disabled{ opacity:0.5; cursor:not-allowed }
+
+/* Allow image to be opened full-size in new tab (user can right-click). Optionally add zoom on click in future */
+
+@media (max-width:760px){
+  .ks-figure{ padding:12px }
+}

@@ -1,0 +1,165 @@
+/* GLOBAL FIX: prevent horizontal scroll */
+html, body {
+  width: 100%;
+  /* overflow-x: hidden; */
+  height: 100%;
+  margin: 0;
+}
+
+.angel-detail {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  font-family: "Noto Sans Ethiopic", sans-serif;
+  color: #222;
+  box-sizing: border-box;
+}
+
+/* HERO */
+.detail-hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.detail-hero h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #8b0000;
+  margin-bottom: 15px;
+  word-break: break-word;
+}
+
+.detail-hero .meaning {
+  font-size: 18px;
+  color: #666;
+  font-style: italic;
+  word-break: break-word;
+}
+
+/* BODY LAYOUT */
+.detail-body {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  max-width: 100%;
+
+  /* 👇 lock the layout height so only text scrolls */
+  /* height: calc(100vh - 200px);  adjust for your navbar */
+  /* overflow: hidden; */
+}
+
+/* IMAGE SIDE (FIXED) */
+.image-wrapper {
+  flex: 0 0 340px;
+  max-width: 100%;
+  position: sticky;     /* stays visible */
+  top: 120px;           /* below navbar */
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+
+.image-wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 70vh;       /* fits viewport */
+  border-radius: 16px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+  object-fit: contain;   /* never crop */
+  background: #fff;
+}
+
+/* allow videos inside the same image-wrapper to behave like images */
+.image-wrapper video {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 70vh;
+  border-radius: 16px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+  object-fit: contain;
+  background: #000;
+}
+
+/* TEXT SIDE (SCROLLS) */
+.description {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: 18px;
+  line-height: 2;
+  color: #333;
+
+  padding-right: 12px;
+
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+
+  text-align: justify;        /* makes both sides equal */
+}
+
+
+
+/* BODY LAYOUT */
+.detail-body {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+/* IMAGE SIDE */
+.image-wrapper {
+  flex: 0 0 340px;
+  position: sticky;
+  top: 120px; /* below navbar */
+  align-self: flex-start;
+}
+
+
+
+
+
+/* VIDEO */
+.video-wrapper {
+  margin-top: 40px;
+  max-width: 100%;
+}
+
+.video-wrapper video {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .detail-body {
+    flex-direction: column;
+    height: auto;          /* normal scroll on mobile */
+    overflow: visible;
+  }
+
+  .image-wrapper {
+    width: 100%;
+    max-width: 380px;
+    margin: 0 auto 20px auto;
+    position: static;     /* disable sticky on mobile */
+  }
+
+  .image-wrapper img {
+    max-height: none;
+  }
+
+  .detail-hero h1 {
+    font-size: 32px;
+  }
+
+  .description {
+    height: auto;
+    overflow: visible;
+    font-size: 16px;
+    padding-right: 0;
+  }
+}

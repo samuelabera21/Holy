@@ -1,0 +1,124 @@
+/* Event detail page aligned with Kidase light theme */
+.event-detail-page {
+  min-height: 100vh;
+  background: radial-gradient(circle at 18% 12%, var(--page-bg-accent), transparent 55%), var(--page-bg);
+  color: var(--text-strong);
+  font-family: "Noto Sans Ethiopic", "Segoe UI", system-ui, sans-serif;
+}
+
+.event-detail-hero {
+  padding: 5.5rem 2rem 3rem;
+  text-align: center;
+  background: linear-gradient(180deg, var(--hero-shade-strong), var(--hero-shade-soft));
+}
+
+.event-detail-breadcrumbs {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 1.8rem;
+}
+
+.event-detail-breadcrumbs a {
+  color: var(--text-strong);
+  text-decoration: none;
+  transition: color 120ms ease;
+}
+
+.event-detail-breadcrumbs a:hover {
+  color: var(--accent);
+}
+
+.event-detail-hero-content h1 {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  margin-bottom: 0.6rem;
+  color: var(--accent);
+  letter-spacing: 1px;
+}
+
+.event-detail-date {
+  margin: 0 auto;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.event-detail-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem 5rem;
+}
+
+.event-detail-body {
+  display: grid;
+  grid-template-columns: minmax(260px, 420px) minmax(0, 1fr);
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.event-detail-media {
+  position: sticky;
+  top: 110px;
+  align-self: start;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 16px;
+  padding: 1.2rem;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.2);
+}
+
+.event-detail-media img,
+.event-detail-media video {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 70vh;
+  object-fit: contain;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.event-detail-text {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 16px;
+  padding: 1.8rem 2rem;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+
+.event-detail-text h2 {
+  color: var(--accent);
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+}
+
+.event-detail-text p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.8;
+  text-align: justify;
+}
+
+@media (max-width: 900px) {
+  .event-detail-body {
+    grid-template-columns: 1fr;
+  }
+
+  .event-detail-media {
+    position: static;
+    max-width: 520px;
+    margin: 0 auto;
+  }
+
+  .event-detail-text {
+    padding: 1.4rem 1.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .event-detail-hero {
+    padding: 4.5rem 1.5rem 2.5rem;
+  }
+}

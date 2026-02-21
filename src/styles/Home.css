@@ -1,0 +1,310 @@
+/* ==============================
+   GLOBAL / RESET
+   ============================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.6;
+  color: var(--app-text);
+}
+
+/* ==============================
+   HERO SECTION
+   ============================== */
+
+.home .hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  height: auto;
+  padding: 3.5rem 1rem;
+}
+
+.home .hero-content {
+  text-align: center;
+  max-width: 1000px;
+  width: 100%;
+  padding: 20px;
+}
+
+.home .hero h1 {
+  font-size: clamp(1.8rem, 3.5vw, 3rem);
+  font-weight: bold;
+  color: var(--hero-text);
+  margin-bottom: 15px;
+}
+
+.home .hero p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: var(--hero-text-muted);
+}
+
+.home .hero-socials a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--hero-link);
+}
+
+/* ==============================
+   EVENTS / FEATURED
+   ============================== */
+
+.home .events {
+  padding: 50px 20px;
+  background: #fafafa;
+  text-align: center;
+}
+
+.home .events h2 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  color: #111;
+}
+
+.home .event-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.home .event-card {
+  background: white;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.07);
+  transition: 0.3s ease;
+}
+
+.home .event-card:hover {
+  transform: translateY(-5px);
+}
+
+.home .event-card h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.home .event-list,
+.event-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.home .event-card,
+.event-card {
+  background: white;
+  border-radius: 10px;
+  width: min(340px, 92%);
+  max-width: 340px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.07);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.home .event-card:hover,
+.event-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.08);
+}
+
+.home .quote {
+  background: #0d1b47;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.home .quote cite {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* ==============================
+   COMMUNITY SECTION
+   ============================== */
+
+.home .community,
+.community {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px 20px;
+  flex-wrap: wrap-reverse;
+}
+
+.community-text {
+  flex: 1 1 320px;
+  min-width: 260px;
+}
+
+.community-text h2 {
+  font-size: clamp(1.4rem, 3.2vw, 2.4rem);
+  margin-bottom: 15px;
+  color: #0d1b47;
+}
+
+.community-text p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.community-text button {
+  padding: 12px 25px;
+  background: #0d1b47;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.community-image {
+  flex: 1 1 320px;
+  min-width: 260px;
+  height: clamp(180px, 28vw, 360px);
+  background: url("/path/to/your-community-image.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+/* ==============================
+   CORE VALUES
+   ============================== */
+
+.home .values,
+.values {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.home .values h2,
+.values h2 {
+  font-size: clamp(1.4rem, 3vw, 2.2rem);
+  margin-bottom: 25px;
+  color: #111;
+}
+
+.values-grid {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.value-card {
+  background: white;
+  border-radius: 50px;
+  width: clamp(90px, 18vw, 140px);
+  height: clamp(90px, 18vw, 140px);
+  display: grid;
+  place-items: center;
+  font-size: clamp(0.85rem, 1.4vw, 1rem);
+  color: #0d1b47;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* ==============================
+   RESPONSIVE
+   ============================== */
+
+@media (max-width: 1024px) {
+  .home .hero, .hero { min-height: 50vh; padding: 2.5rem 1rem; }
+  .home .event-card, .event-card { width: min(420px, 92%); }
+}
+
+@media (max-width: 768px) {
+  /* HERO - smaller, tighter on mobile */
+  .home .hero, .hero {
+    min-height: 40vh;
+    padding: 2rem 1rem;
+    align-items: center;
+  }
+
+  .home .hero h1, .hero h1 { font-size: 1.9rem; }
+  .home .hero p, .hero p { font-size: 1rem; }
+
+  /* EVENTS - stack cards full width */
+  .home .event-list, .event-list { flex-direction: column; align-items: stretch; gap: 16px; }
+
+  .home .event-card, .event-card {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 12px;
+    padding: 16px;
+  }
+
+  /* Ensure images and content inside event cards flow correctly on mobile */
+  .home .event-list { padding: 0 12px; }
+
+  .home .event-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: stretch;
+    overflow: visible;
+  }
+
+  .home .event-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .home .event-card p {
+    text-align: left;
+    color: #444;
+  }
+
+  .home .event-card h3 { font-size: 1.1rem; }
+
+  /* QUOTE - tighter spacing */
+  .home .quote {
+    padding: 20px 14px;
+    font-size: 0.98rem;
+  }
+
+  .home .quote cite { font-size: 0.9rem; }
+
+  /* COMMUNITY - stack, center text */
+  .home .community, .community { flex-direction: column; gap: 18px; padding: 28px 12px; }
+  .community-text { text-align: center; }
+  .community-image { width: 100%; height: clamp(140px, 32vw, 220px); border-radius: 10px; }
+
+  /* VALUES - single row wrapping and smaller cards */
+  .home .values, .values { padding: 28px 12px; }
+  .values-grid { gap: 12px; justify-content: center; }
+  .value-card { width: 96px; height: 96px; }
+}
+
+@media (max-width: 420px) {
+  .home .hero h1, .hero h1 { font-size: 1.6rem; }
+  .value-card { width: 84px; height: 84px; font-size: 0.78rem; }
+}

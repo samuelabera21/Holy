@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "brand": "Orthodox Church",
+    "links": {
+      "home": "Home",
+      "videos": "Videos",
+      "teachings": "Teachings",
+      "books": "Books",
+      "history": "History",
+      "holyAngels": "Holy Angels"
+    },
+    "toggle": {
+      "openMenu": "Open menu",
+      "closeMenu": "Close menu",
+      "language": "Switch to {{lang}} language",
+      "theme": "Switch to {{mode}} mode"
+    },
+    "mode": {
+      "light": "Light",
+      "dark": "Dark"
+    }
+  },
+  "footer": {
+    "brand": {
+      "title": "Orthodox Church",
+      "tagline": "A place of faith, hope, love, and spiritual growth."
+    },
+    "links": {
+      "title": "Quick Links",
+      "kidase": "Kidase"
+    },
+    "socials": {
+      "title": "Connect",
+      "facebook": "Facebook",
+      "youtube": "YouTube",
+      "telegram": "Telegram"
+    },
+    "bottom": "\u00a9 {{year}} Orthodox Church. All rights reserved."
+  }
+}

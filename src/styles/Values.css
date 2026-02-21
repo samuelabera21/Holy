@@ -1,0 +1,206 @@
+/* ===============================
+   VALUES SECTION WITH VIDEO
+   =============================== */
+
+.values {
+  position: relative;
+  min-height: 100vh;
+  padding: 6rem 2rem;
+
+  overflow: hidden;
+  text-align: center;
+
+  /* softer entrance */
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.values.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ===============================
+   BACKGROUND VIDEO
+   =============================== */
+
+.values-bg-video {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  z-index: 0;
+  /* keep the video visible behind the overlay */
+  opacity: 0.65;
+}
+
+/* ===============================
+   OVERLAY
+   =============================== */
+
+.values-overlay {
+  position: absolute;
+  inset: 0;
+
+  /* softer warm overlay to match holy palette */
+  /* make overlay more transparent so video remains visible */
+  background: linear-gradient(
+    var(--values-overlay-start),
+    var(--values-overlay-end)
+  );
+
+  z-index: 1;
+}
+
+/* ===============================
+   CONTENT
+   =============================== */
+
+.values-content {
+  position: relative;
+  z-index: 2;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* white panel that holds the values for better visibility */
+.values-panel {
+  /* fully transparent container so the video stays visible */
+  background: transparent;
+  border-radius: 14px;
+  padding: 2.2rem 2.6rem;
+  box-shadow: none;
+  color: var(--text-strong);
+  backdrop-filter: none;
+  border: 0;
+  width: min(100%, 980px);
+  margin: 0 auto;
+}
+
+/* Section title */
+.values-content h2 {
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  margin-bottom: 1.5rem;
+
+  color: var(--values-title);
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+
+/* ===============================
+   TEXT COLUMN STYLE
+   =============================== */
+
+.values-text-column {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem 1.6rem;
+  align-items: start;
+  grid-auto-rows: auto;
+}
+
+.value-card {
+  background: transparent;
+  border-radius: 12px;
+  padding: 0.6rem 0 0.6rem 1rem;
+  text-align: left;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: hidden;
+  border-left: 3px solid var(--values-border);
+  transition: color 0.ms ease, border-color 0.ms ease, background 0.ms ease,
+    box-shadow 110ms ease, transform 110ms ease;
+  box-sizing: border-box;
+  will-change: color;
+}
+
+.value-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--values-text);
+  letter-spacing: 0.3px;
+  font-weight: 700;
+  transition: color 110ms ease;
+}
+
+.value-card p {
+  margin: 0;
+  color: var(--values-text-muted);
+  line-height: 1.7;
+  font-size: 0.98rem;
+  hyphens: auto;
+  word-break: break-word;
+  margin-top: 0.35rem;
+  transition: color 110ms ease;
+}
+
+/* Hover / focus interactions */
+.value-card:hover,
+.value-card:focus-within {
+  border-color: var(--accent);
+  background: var(--values-hover-bg);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.14);
+  transform: translateY(-2px);
+}
+
+.value-card:hover h3,
+.value-card:focus-within h3 {
+  color: var(--accent);
+}
+
+.value-card:hover p,
+.value-card:focus-within p {
+  color: var(--text-strong);
+}
+
+/* Disable hover effects on touch devices to avoid layout jumps */
+@media (hover: none) and (pointer: coarse) {
+  .value-card,
+  .value-card h3 {
+    transition: none;
+  }
+}
+
+/* ===============================
+   RESPONSIVE
+   =============================== */
+
+@media (max-width: 768px) {
+  .values {
+    padding: 5rem 1.5rem;
+  }
+
+  .values-panel {
+    padding: 1.4rem;
+  }
+
+  .values-text-column {
+    grid-template-columns: 1fr;
+  }
+  
+  /* Center text and headings for small devices for a cleaner look */
+  .value-card {
+    text-align: center;
+    min-height: auto;
+    padding-left: 0;
+    border-left: 0;
+    border-top: 3px solid var(--values-border);
+    padding-top: 0.9rem;
+  }
+
+  .value-card h3,
+  .value-card p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,108 @@
+/* ===============================
+   HISTORY HERO
+   =============================== */
+
+.history-hero {
+  position: relative;
+  min-height: 70vh;
+  overflow: hidden;
+  color: var(--hero-text);
+}
+
+/* Video */
+.history-hero-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Overlay */
+.history-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    var(--hero-shade-strong),
+    var(--hero-shade-soft)
+  );
+  z-index: 1;
+}
+
+/* Content */
+.history-hero-content {
+  position: relative;
+  z-index: 2;
+
+  min-height: 70vh;
+  padding: 5.5rem 2rem 3rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.history-breadcrumbs {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  color: var(--hero-text-muted);
+  margin-bottom: 1.8rem;
+}
+
+.history-breadcrumbs a {
+  color: var(--hero-link);
+  text-decoration: none;
+  transition: color 120ms ease;
+}
+
+.history-breadcrumbs a:hover {
+  color: var(--hero-link-hover);
+}
+
+.history-hero-content h1 {
+  font-size: clamp(2.6rem, 5vw, 3.6rem);
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  text-shadow: 0 14px 30px var(--hero-text-shadow);
+}
+
+.history-hero-content p {
+  font-size: 1.15rem;
+  color: var(--hero-text-muted);
+  line-height: 1.7;
+  text-shadow: 0 10px 25px var(--hero-text-shadow-soft);
+}
+
+.history-hero-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 1.6rem;
+  padding: 0.75rem 1.6rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--accent-contrast);
+  text-decoration: none;
+  font-weight: 700;
+  transition: transform 140ms ease, box-shadow 140ms ease;
+}
+
+.history-hero-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(244, 196, 48, 0.25);
+}
+
+@media (max-width: 700px) {
+  .history-hero-content {
+    padding: 4.5rem 1.5rem 2.5rem;
+  }
+}

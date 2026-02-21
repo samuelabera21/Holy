@@ -1,0 +1,11 @@
+{
+  "eventsDetail": {
+    "breadcrumbs": {
+      "home": "መነሻ",
+      "events": "በዓላት"
+    },
+    "notFound": "በዓል አልተገኘም",
+    "about": "ስለ ዚህ በዓል",
+    "videoFallback": "የእርስዎ አሳሽ የቪዲዮ መለያን አይደግፍም።"
+  }
+}

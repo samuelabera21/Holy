@@ -1,0 +1,145 @@
+{
+  "history": {
+    "breadcrumb": "History",
+    "hero": {
+      "title": "Ethiopian Orthodox Tewahedo Church",
+      "subtitle": "A faith rooted in apostolic tradition, history, and spiritual life passed through generations.",
+      "cta": "Explore the History"
+    },
+    "toc": {
+      "title": "On this page",
+      "ethiopia": "Orthodoxy in Ethiopia",
+      "community": "Global Community",
+      "churches": "Important Churches",
+      "figures": "Famous Figures"
+    },
+    "ethiopia": {
+      "title": "Orthodoxy in Ethiopia",
+      "paragraphs": [
+        "Christianity reached Ethiopia in the early centuries through apostolic tradition. The Ethiopian Orthodox Tewahedo Church became a pillar of faith, culture, and national identity.",
+        "For centuries, the Church preserved scripture, tradition, and spiritual life, shaping Ethiopian history and civilization."
+      ]
+    },
+    "community": {
+      "title": "Global Orthodox Community",
+      "subtitle": "Discover the nations where Orthodox Christianity has the strongest presence today.",
+      "topCountries": "Top Orthodox Countries Worldwide",
+      "labels": {
+        "orthodox": "Orthodox",
+        "population": "Population"
+      },
+      "countries": {
+        "ethiopia": {
+          "name": "Ethiopia",
+          "primaryChurch": "Ethiopian Orthodox Tewahedo Church",
+          "description": "Ethiopia is one of the oldest Christian nations in the world, with a continuous Orthodox tradition dating back to the 4th century."
+        },
+        "russia": {
+          "name": "Russia",
+          "primaryChurch": "Russian Orthodox Church",
+          "description": "Russia has the largest Orthodox population in Europe, deeply influencing its culture, history, and national identity."
+        },
+        "greece": {
+          "name": "Greece",
+          "primaryChurch": "Greek Orthodox Church",
+          "description": "Greece is historically central to Orthodox theology and tradition, with a strong national Orthodox identity."
+        },
+        "romania": {
+          "name": "Romania",
+          "primaryChurch": "Romanian Orthodox Church",
+          "description": "Romania maintains one of the highest percentages of Orthodox Christians in Europe."
+        },
+        "serbia": {
+          "name": "Serbia",
+          "primaryChurch": "Serbian Orthodox Church",
+          "description": "The Serbian Orthodox Church plays a central role in Serbian national and cultural identity."
+        },
+        "bulgaria": {
+          "name": "Bulgaria",
+          "primaryChurch": "Bulgarian Orthodox Church",
+          "description": "Orthodoxy has shaped Bulgarian history and spiritual life for over a millennium."
+        },
+        "egypt": {
+          "name": "Egypt",
+          "primaryChurch": "Coptic Orthodox Church",
+          "description": "Egypt is home to the Coptic Orthodox Church, one of the oldest Christian communities in the world."
+        },
+        "ukraine": {
+          "name": "Ukraine",
+          "primaryChurch": "Orthodox Church of Ukraine",
+          "description": "Ukraine has a strong Orthodox heritage rooted in the baptism of Kyivan Rus."
+        },
+        "georgia": {
+          "name": "Georgia",
+          "primaryChurch": "Georgian Orthodox Church",
+          "description": "Georgia is one of the earliest Christian kingdoms with a deeply rooted Orthodox identity."
+        }
+      }
+    },
+    "most": {
+      "title": "Most Important Orthodox Churches",
+      "items": {
+        "mary-of-zion": {
+          "name": "Church of St. Mary of Zion",
+          "location": "Axum, Ethiopia",
+          "significance": "One of the most sacred churches in Ethiopian Orthodoxy, traditionally believed to house the Ark of the Covenant."
+        },
+        "holy-sepulchre": {
+          "name": "Church of the Holy Sepulchre",
+          "location": "Jerusalem",
+          "significance": "Built on the site of Jesus Christ\u2019s crucifixion, burial, and resurrection."
+        },
+        "hagia-sophia": {
+          "name": "Hagia Sophia",
+          "location": "Istanbul, Turkey",
+          "significance": "For centuries, Hagia Sophia was the heart of Eastern Orthodox Christianity."
+        },
+        "saint-sava": {
+          "name": "Temple of Saint Sava",
+          "location": "Belgrade, Serbia",
+          "significance": "One of the largest Orthodox churches in the world and a symbol of Serbian Orthodoxy."
+        },
+        "alexander-nevsky": {
+          "name": "Alexander Nevsky Cathedral",
+          "location": "Sofia, Bulgaria",
+          "significance": "A monumental cathedral built in honor of Saint Alexander Nevsky."
+        },
+        "trinity-lavra": {
+          "name": "Trinity Lavra of St. Sergius",
+          "location": "Sergiyev Posad, Russia",
+          "significance": "The spiritual center of the Russian Orthodox Church."
+        }
+      }
+    },
+    "famous": {
+      "title": "Famous Figures of Orthodoxy",
+      "subtitle": "Saints and theologians who shaped Orthodox faith, worship, and tradition across centuries.",
+      "items": {
+        "1": {
+          "name": "St. Athanasius",
+          "title": "Defender of the Trinity",
+          "era": "4th Century",
+          "description": "A central figure in Orthodox theology, known for defending the divinity of Christ against Arianism."
+        },
+        "2": {
+          "name": "St. Cyril of Alexandria",
+          "title": "Pillar of Orthodoxy",
+          "era": "5th Century",
+          "description": "A powerful theologian who played a decisive role in defining Orthodox Christology."
+        },
+        "3": {
+          "name": "St. Yared",
+          "title": "Father of Ethiopian Church Music",
+          "era": "6th Century",
+          "description": "Composer of the sacred Ethiopian Orthodox chants still sung today."
+        },
+        "4": {
+          "name": "St. Tekle Haymanot",
+          "title": "Monk & Miracle Worker",
+          "era": "13th Century",
+          "description": "A revered Ethiopian saint known for ascetic life and spiritual discipline."
+        }
+      }
+    }
+  }
+}

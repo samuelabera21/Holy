@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "brand": "ኦርቶዶክስ ቤተክርስቲያን",
+    "links": {
+      "home": "መነሻ",
+      "videos": "ቪዲዮዎች",
+      "teachings": "ትምህርቶች",
+      "books": "መጽሐፎች",
+      "history": "ታሪክ",
+      "holyAngels": "ቅዱሳን መላእክት"
+    },
+    "toggle": {
+      "openMenu": "ምናሌ ክፈት",
+      "closeMenu": "ምናሌ ዝጋ",
+      "language": "ወደ {{lang}} ቋንቋ ቀይር",
+      "theme": "ወደ {{mode}} ሁኔታ ቀይር"
+    },
+    "mode": {
+      "light": "ብርሃን",
+      "dark": "ጨለማ"
+    }
+  },
+  "footer": {
+    "brand": {
+      "title": "ኦርቶዶክስ ቤተክርስቲያን",
+      "tagline": "የእምነት፣ ተስፋ፣ ፍቅር እና መንፈሳዊ እድገት ቦታ።"
+    },
+    "links": {
+      "title": "ፈጣን አገናኞች",
+      "kidase": "ቅዳሴ"
+    },
+    "socials": {
+      "title": "ያገናኙ",
+      "facebook": "ፌስቡክ",
+      "youtube": "ዩቲዩብ",
+      "telegram": "ቴሌግራም"
+    },
+    "bottom": "© {{year}} ኦርቶዶክስ ቤተክርስቲያን። ሁሉም መብት የተጠበቀ ነው።"
+  }
+}

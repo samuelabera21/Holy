@@ -1,0 +1,585 @@
+{
+  "kidase": {
+    "breadcrumbs": {
+      "home": "Home",
+      "teachings": "Teachings",
+      "kidase": "Kidase"
+    },
+    "hero": {
+      "title": "Kidase",
+      "subtitle": "Choose a language and explore Kidase teachings.",
+      "cta": "Choose Language"
+    },
+    "toc": {
+      "title": "On this page",
+      "languages": "Languages",
+      "about": "About Kidase",
+      "resources": "Resources"
+    },
+    "sections": {
+      "languages": {
+        "title": "Languages",
+        "subtitle": "Select a language to continue."
+      },
+      "about": {
+        "title": "About Kidase",
+        "body": "Kidase is a central liturgy of worship. This page organizes the materials by language for easier access and study."
+      },
+      "resources": {
+        "title": "Resources",
+        "body": "Visit the teachings section for more topics, audio, and study materials.",
+        "link": "Browse all teachings"
+      }
+    },
+    "languages": {
+      "geez": "Geez",
+      "ezel": "Ezel"
+    },
+    "types": {
+      "heroTitle": "{{language}} Kidase",
+      "heroSubtitle": "Choose a section below to view lessons and follow along.",
+      "sectionTitle": "Sections",
+      "sectionSubtitle": "Search or pick a section to continue.",
+      "searchPlaceholder": "Search sections...",
+      "searchAriaLabel": "Search sections",
+      "cardDescription": "Open to view lessons and follow along."
+    },
+    "typeDetails": {
+      "heroSubtitle": "Choose a section to listen and continue the Kidase.",
+      "sectionTitle": "Sections",
+      "sectionSubtitle": "Pick a lesson to continue.",
+      "cardDescription": "Open this lesson to listen and follow along."
+    },
+    "slide": {
+      "heroSubtitle": "Listen, follow along, and move to the next section.",
+      "lessonTitle": "Lesson",
+      "lessonSubtitle": "Audio controls and slide image.",
+      "rewind": "Rewind 10 seconds",
+      "forward": "Forward 10 seconds",
+      "play": "Play",
+      "pause": "Pause",
+      "volume": "Volume",
+      "download": "Download"
+    },
+    "pagination": {
+      "previous": "\u25c0 Previous",
+      "next": "Next \u25b6",
+      "pageOf": "Page {{page}} of {{total}}"
+    },
+    "errors": {
+      "languageNotFound": "Language not found",
+      "typeNotFound": "Kidase type not found",
+      "slideNotFound": "Slide not found",
+      "kidaseNotFound": "Kidase not found"
+    },
+    "content": {
+      "geez": {
+        "types": {
+          "zewetr": {
+            "title": "Order of the Liturgy",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "mariam": {
+            "title": "Liturgy of Mary",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "hawaryat": {
+            "title": "Kidase Hawaryat",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "egzie": {
+            "title": "Kidase Egzie",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "weldenegodguad": {
+            "title": "Kidase Weldenegodguad",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "selestu": {
+            "title": "Kidase Selestu",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "atnatiwes": {
+            "title": "Kidase Atnatiwes",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "baslyos": {
+            "title": "Kidase Baslyos",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "gorgoriwes": {
+            "title": "Kidase Gorgoriwes",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "epifaniwes": {
+            "title": "Kidase Epifaniwes",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "yohannes": {
+            "title": "Kidase Yohannes",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "kerlos": {
+            "title": "Kidase Kerlos",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "yaekob": {
+            "title": "Kidase Yaekob",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "diweskoros": {
+            "title": "Kidase Diweskoros",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "kalegorgoriwes": {
+            "title": "Kidase Kalegorgoriwes",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "geezserawit": {
+            "title": "Kidase Geez Serawit",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          }
+        }
+      },
+      "ezel": {
+        "types": {
+          "mariam": {
+            "title": "Liturgy of Mary",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "zewetr": {
+            "title": "Daily Liturgy",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "hawaryat": {
+            "title": "Kidase Hawaryat",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "egzie": {
+            "title": "Kidase Egzie",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "weldenegodguad": {
+            "title": "Kidase Weldenegodguad",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "selestu": {
+            "title": "Kidase Selestu",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "atnatiwes": {
+            "title": "Kidase Atnatiwes",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "baslyos": {
+            "title": "Kidase Baslyos",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "gorgoriwes": {
+            "title": "Kidase Gorgoriwes",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "epifaniwes": {
+            "title": "Kidase Epifaniwes",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "yohannes": {
+            "title": "Kidase Yohannes",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "kerlos": {
+            "title": "Kidase Kerlos",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "yaekob": {
+            "title": "Kidase Yaekob",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "diweskoros": {
+            "title": "Kidase Diweskoros",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "kalegorgoriwes": {
+            "title": "Kidase Kalegorgoriwes",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          },
+          "geezserawit": {
+            "title": "Kidase Geez Serawit",
+            "slides": {
+              "1": {
+                "caption": "First Liturgy"
+              },
+              "2": {
+                "caption": "Second Liturgy"
+              },
+              "3": {
+                "caption": "Third Liturgy"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "teachings": {
+    "breadcrumbs": {
+      "home": "Home",
+      "teachings": "Teachings"
+    },
+    "hero": {
+      "title": "Teachings",
+      "subtitle": "Explore the collection of Orthodox teachings. New topics are added regularly.",
+      "cta": "Browse Teachings"
+    },
+    "section": {
+      "title": "Available Teachings",
+      "subtitle": "Choose a topic to begin your study."
+    },
+    "items": {
+      "kidase": {
+        "title": "Kidase",
+        "description": "Liturgy texts organized by language."
+      },
+      "wereb": {
+        "title": "Wereb",
+        "description": "Hymns, melodies, and devotional chants."
+      }
+    },
+    "card": {
+      "open": "Open"
+    },
+    "more": {
+      "title": "More Coming Soon",
+      "subtitle": "We are preparing more teachings and resources for you."
+    },
+    "details": {
+      "notFound": "Teaching not found",
+      "kidase": {
+        "title": "Kidase",
+        "description": "Ethiopian Orthodox Church Kidase teaching."
+      },
+      "wereb": {
+        "title": "Wereb",
+        "description": "Orthodox hymns and devotional chants."
+      }
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "pageOf": "Page {{page}} of {{total}}"
+    },
+    "media": {
+      "listen": "Listen"
+    }
+  }
+}

@@ -1,0 +1,599 @@
+{
+  "kidase": {
+    "breadcrumbs": {
+      "home": "መነሻ",
+      "teachings": "ትምህርቶች",
+      "kidase": "ቅዳሴ"
+    },
+    "hero": {
+      "title": "ቅዳሴ",
+      "subtitle": "ቋንቋ ይምረጡ እና የቅዳሴ ትምህርቶችን ያስሱ።",
+      "cta": "ቋንቋ ይምረጡ"
+    },
+    "toc": {
+      "title": "በዚህ ገፅ",
+      "languages": "ቋንቋዎች",
+      "about": "ስለ ቅዳሴ",
+      "resources": "ምንጮች"
+    },
+    "sections": {
+      "languages": {
+        "title": "ቋንቋዎች",
+        "subtitle": "ለመቀጠል ቋንቋ ይምረጡ።"
+      },
+      "about": {
+        "title": "ስለ ቅዳሴ",
+        "body": "ቅዳሴ ዋና የአምልኮ ሥርዓት ነው። ይህ ገፅ ትምህርቶቹን በቋንቋ በመለየት ለቀላል መዳረሻ እና ጥናት ያዘጋጃል።"
+      },
+      "resources": {
+        "title": "ምንጮች",
+        "body": "ተጨማሪ ርዕሶች፣ ኦዲዮ እና የጥናት ንጥረ ነገሮች ለማግኘት ወደ ትምህርቶች ክፍል ይጎብኙ።",
+        "link": "ሁሉንም ትምህርቶች ይመልከቱ"
+      }
+    },
+    "languages": {
+      "geez": "ግዕዝ",
+      "ezel": "ዕዝል"
+    },
+    "types": {
+      "heroTitle": "{{language}} ቅዳሴ",
+      "heroSubtitle": "በታች ያሉትን ክፍሎች ይምረጡ እና ትምህርቱን ይከታተሉ።",
+      "sectionTitle": "ክፍሎች",
+      "sectionSubtitle": "ለመቀጠል ክፍል ይፈልጉ ወይም ይምረጡ።",
+      "searchPlaceholder": "ክፍሎችን ይፈልጉ...",
+      "searchAriaLabel": "ክፍሎችን ይፈልጉ",
+      "cardDescription": "ለመመልከት እና ለመከታተል ይክፈቱ።"
+    },
+    "typeDetails": {
+      "heroSubtitle": "ቅዳሴን ለመቀጠል ክፍል ይምረጡ እና ያድምጡ።",
+      "sectionTitle": "ክፍሎች",
+      "sectionSubtitle": "ለመቀጠል ትምህርት ይምረጡ።",
+      "cardDescription": "ይህን ትምህርት ለማዳመጥ እና ለመከታተል ክፈት።"
+    },
+    "slide": {
+      "heroSubtitle": "ያድምጡ፣ ይከታተሉ እና ወደ ቀጣይ ክፍል ይሂዱ።",
+      "lessonTitle": "ትምህርት",
+      "lessonSubtitle": "የድምጽ መቆጣጠሪያዎች እና የስላይድ ምስል።",
+      "rewind": "10 ሰከንድ ወደ ኋላ",
+      "forward": "10 ሰከንድ ወደ ፊት",
+      "play": "አጫውት",
+      "pause": "ቆይ",
+      "volume": "ድምጽ",
+      "download": "አውርድ"
+    },
+    "pagination": {
+      "previous": "◀ ቀዳሚ",
+      "next": "ቀጣይ ▶",
+      "pageOf": "ገጽ {{page}} ከ {{total}}"
+    },
+    "errors": {
+      "languageNotFound": "ቋንቋ አልተገኘም",
+      "typeNotFound": "የቅዳሴ ክፍል አልተገኘም",
+      "slideNotFound": "ስላይድ አልተገኘም",
+      "kidaseNotFound": "ቅዳሴ አልተገኘም"
+    },
+    "content": {
+      "geez": {
+        "types": {
+          "zewetr": {
+            "title": "ስርአተ ቅዳሴ",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+
+
+"hawaryat": {
+            "title": "ቅዳሴ ሀዋርያት",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+   "mariam": {
+            "title": "ማርያም ቅዳሴ",
+            "slides": {
+              "1": {
+                "caption": "መጀመሪያ ቅዳሴ"
+              },
+              "2": {
+                "caption": "ሁለተኛ ቅዳሴ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+
+
+          "egzie": {
+            "title": "ቅዳሴ እግዚእ",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+          "weldenegodguad": {
+            "title": "ቅዳሴ ወልደ.ነጎድጎድ",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+          "selestu": {
+            "title": "ቅዳሴ 3ቱ  ምእት",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+          "atnatiwes": {
+            "title": "ቅዳሴ አትናቴዎስ",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+          "baslyos": {
+            "title": "ቅዳሴ ባስልዮስ",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+          "gorgoriwes": {
+            "title": "ቅዳሴ ጎርጎርዮስ",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+          "epifaniwes": {
+            "title": "ቅዳሴ ኤጲፋንዮስ",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+          "yohannes": {
+            "title": "ቅዳሴ ዮሀንስ አፈወርቅ",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+          "kerlos": {
+            "title": "ቅዳሴ ቄርሎስ",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+          "yaekob": {
+            "title": "ቅዳሴ ያእቆብዘስሩግ",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+          "diweskoros": {
+            "title": "ቅዳሴ ዲዮስቆሮስ",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+          "kalegorgoriwes": {
+            "title": "ቅዳሴ ካልእ ጎርጎርዮስ",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+          "geezserawit": {
+            "title": "ግዕዝ ሰራዊት",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          }
+
+
+       
+        }
+      },
+      "ezel": {
+        "types": {
+          "zewetr": {
+            "title": "ስርአተ ቅዳሴ",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+
+
+"hawaryat": {
+            "title": "ቅዳሴ ሀዋርያት",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+   "mariam": {
+            "title": "ማርያም ቅዳሴ",
+            "slides": {
+              "1": {
+                "caption": "መጀመሪያ ቅዳሴ"
+              },
+              "2": {
+                "caption": "ሁለተኛ ቅዳሴ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+
+
+          "egzie": {
+            "title": "ቅዳሴ እግዚእ",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+          "weldenegodguad": {
+            "title": "ቅዳሴ ወልደ.ነጎድጎድ",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+          "selestu": {
+            "title": "ቅዳሴ 3ቱ  ምእት",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+          "atnatiwes": {
+            "title": "ቅዳሴ አትናቴዎስ",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+          "baslyos": {
+            "title": "ቅዳሴ ባስልዮስ",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+          "gorgoriwes": {
+            "title": "ቅዳሴ ጎርጎርዮስ",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+          "epifaniwes": {
+            "title": "ቅዳሴ ኤጲፋንዮስ",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+          "yohannes": {
+            "title": "ቅዳሴ ዮሀንስ አፈወርቅ",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+          "kerlos": {
+            "title": "ቅዳሴ ቄርሎስ",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+          "yaekob": {
+            "title": "ቅዳሴ ያእቆብዘስሩግ",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+          "diweskoros": {
+            "title": "ቅዳሴ ዲዮስቆሮስ",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+          "kalegorgoriwes": {
+            "title": "ቅዳሴ ካልእ ጎርጎርዮስ",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          },
+          "geezserawit": {
+            "title": "ግዕዝ ሰራዊት",
+            "slides": {
+              "1": {
+                "caption": "እምነ በሐ"
+              },
+              "2": {
+                "caption": "ኩሉ ዘገብራ"
+              },
+              "3": {
+                "caption": "ሶስተኛ ቅዳሴ"
+              }
+            }
+          }
+
+
+       
+        }
+      }
+    }
+  },
+  "teachings": {
+    "breadcrumbs": {
+      "home": "መነሻ",
+      "teachings": "ትምህርቶች"
+    },
+    "hero": {
+      "title": "ትምህርቶች",
+      "subtitle": "የኦርቶዶክስ ትምህርቶችን ያስሱ። አዲስ ርዕሶች በቀጥታ ይጨመራሉ።",
+      "cta": "ትምህርቶችን ይመልከቱ"
+    },
+    "section": {
+      "title": "የሚገኙ ትምህርቶች",
+      "subtitle": "ለመጀመር ርዕስ ይምረጡ።"
+    },
+    "items": {
+      "kidase": {
+        "title": "ቅዳሴ",
+        "description": "በቋንቋ የተደራጀ የሊቱርጂ ጽሑፎች።"
+      },
+      "wereb": {
+        "title": "ወረብ",
+        "description": "መዝሙሮች፣ ዜማዎች እና መንፈሳዊ ዘፈኖች።"
+      }
+    },
+    "card": {
+      "open": "ክፈት"
+    },
+    "more": {
+      "title": "ተጨማሪ በቅርቡ",
+      "subtitle": "ተጨማሪ ትምህርቶችና ምንጮች እናዘጋጃለን።"
+    },
+    "details": {
+      "notFound": "ትምህርት አልተገኘም",
+      "kidase": {
+        "title": "ቅዳሴ",
+        "description": "የኢትዮጵያ ኦርቶዶክስ ቅዳሴ ትምህርት።"
+      },
+      "wereb": {
+        "title": "ወረብ",
+        "description": "የኦርቶዶክስ መዝሙሮችና መንፈሳዊ ዘፈኖች።"
+      }
+    },
+    "pagination": {
+      "previous": "ቀዳሚ",
+      "next": "ቀጣይ",
+      "pageOf": "ገጽ {{page}} ከ {{total}}"
+    },
+    "media": {
+      "listen": "አድምጥ"
+    }
+  }
+}

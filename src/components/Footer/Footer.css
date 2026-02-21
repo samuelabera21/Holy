@@ -1,0 +1,128 @@
+/* ===============================
+   FOOTER
+   =============================== */
+
+.footer {
+  background: linear-gradient(
+    to right,
+    #0f2027,
+    #203a43,
+    #2c5364
+  );
+  color: #eaeaea;
+  padding: 4rem 1.5rem 2rem;
+}
+
+/* Container */
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+/* ===============================
+   BRAND
+   =============================== */
+
+.footer-brand h3 {
+  font-size: 1.6rem;
+  margin-bottom: 0.75rem;
+  color: #f4c430; /* gold accent */
+}
+
+.footer-brand p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #d6d6d6;
+}
+
+/* ===============================
+   LINKS
+   =============================== */
+
+.footer-links h4,
+.footer-socials h4 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.6rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #d6d6d6;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #f4c430;
+}
+
+/* ===============================
+   SOCIALS
+   =============================== */
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #d6d6d6;
+  font-size: 0.95rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #f4c430;
+  transform: translateX(6px);
+}
+
+/* ===============================
+   FOOTER BOTTOM
+   =============================== */
+
+.footer-bottom {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 0.85rem;
+  color: #cfcfcf;
+}
+
+/* ===============================
+   RESPONSIVE
+   =============================== */
+
+@media (max-width: 900px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .social-links {
+    align-items: center;
+  }
+
+  .social-links a:hover {
+    transform: none;
+  }
+}

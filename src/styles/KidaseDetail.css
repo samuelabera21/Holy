@@ -1,0 +1,81 @@
+.kidase-detail {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* background video stays behind */
+.bg-video {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* overlay above video */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 1;
+}
+
+/* 🔥 THIS IS THE FIX */
+.content {
+  position: relative;
+  z-index: 2;              /* bring content to front */
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+
+.kidase-image {
+  width: 100%;
+  max-height: 420px;
+  object-fit: contain;
+  margin: 2rem 0;
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+audio {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.kidase-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.kidase-nav button {
+  padding: 0.8rem 2rem;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  background: #d4af37;
+  color: #111;
+  font-weight: 600;
+}
+
+.kidase-nav button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+
+.kidase-image {
+  width: 100%;
+  max-height: 420px;
+  object-fit: contain;
+  margin: 2rem auto;
+  border-radius: 18px;
+  display: block;
+  background: rgba(0, 0, 0, 0.25);
+}

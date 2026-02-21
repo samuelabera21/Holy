@@ -1,0 +1,18 @@
+/* Layout spacing to prevent fixed header from overlapping content */
+.main-content {
+  /* Safe default padding equal to expected navbar height */
+  padding-top: 50px;
+}
+
+/* Slightly smaller top offset on small screens */
+@media (max-width: 768px) {
+  .main-content {
+    padding-top: 64px;
+  }
+}
+
+/* If any page uses full-viewport sections, ensure they account for the header
+   by capping height or allowing the page to scroll naturally. */
+.main-content > * {
+  box-sizing: border-box;
+}

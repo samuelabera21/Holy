@@ -1,0 +1,88 @@
+:root {
+  --app-bg: #0f0f0f;
+  --app-text: #f6f1e6;
+  --page-bg: #0f0f0f;
+  --page-bg-accent: rgba(244, 196, 48, 0.08);
+  --card-bg: rgba(255, 255, 255, 0.06);
+  --card-border: rgba(255, 255, 255, 0.1);
+  --muted: rgba(246, 241, 230, 0.75);
+  --text-strong: #f6f1e6;
+  --accent: #f4c430;
+  --accent-contrast: #1a1a1a;
+  --hero-shade-strong: rgba(0, 0, 0, 0.78);
+  --hero-shade-soft: rgba(0, 0, 0, 0.25);
+  --hero-text: #ffffff;
+  --hero-text-muted: rgba(235, 235, 235, 0.92);
+  --hero-text-shadow: rgba(0, 0, 0, 0.55);
+  --hero-text-shadow-soft: rgba(0, 0, 0, 0.35);
+  --hero-link: #ffffff;
+  --hero-link-hover: #f4c430;
+  --quote-bg: #111111;
+  --quote-text: #f5f5f5;
+  --quote-accent: rgba(244, 196, 48, 0.35);
+  --events-hero-bg: #111111;
+  --events-hero-text: #f6f1e6;
+  --events-body-bg: #0f0f0f;
+  --events-body-text: #f6f1e6;
+  --values-overlay-start: rgba(245, 241, 230, 0.12);
+  --values-overlay-end: rgba(245, 241, 230, 0.18);
+  --values-title: #8b0000;
+  --values-text: rgba(246, 241, 230, 0.92);
+  --values-text-muted: rgba(246, 241, 230, 0.72);
+  --values-border: rgba(244, 196, 48, 0.4);
+  --values-hover-bg: rgba(255, 255, 255, 0.12);
+  --nav-bg: rgba(15, 15, 15, 0.65);
+  --nav-border: rgba(255, 255, 255, 0.08);
+  --nav-text: #ffffff;
+  --nav-link: #eaeaea;
+  --nav-link-hover: #f4c430;
+}
+
+.theme-light {
+  --app-bg: #f6f2e9;
+  --app-text: #1f1c18;
+  --page-bg: #f6f2e9;
+  --page-bg-accent: rgba(184, 134, 11, 0.14);
+  --card-bg: rgba(255, 255, 255, 0.9);
+  --card-border: rgba(0, 0, 0, 0.08);
+  --muted: #5a5347;
+  --text-strong: #1f1c18;
+  --accent: #b8860b;
+  --accent-contrast: #1f1c18;
+  --hero-shade-strong: rgba(255, 255, 255, 0.92);
+  --hero-shade-soft: rgba(255, 255, 255, 0.65);
+  --hero-text: #1f1c18;
+  --hero-text-muted: rgba(43, 37, 32, 0.85);
+  --hero-text-shadow: rgba(0, 0, 0, 0.18);
+  --hero-text-shadow-soft: rgba(0, 0, 0, 0.12);
+  --hero-link: #1f1c18;
+  --hero-link-hover: #8b0000;
+  --quote-bg: #f7f2e8;
+  --quote-text: #1f1c18;
+  --quote-accent: rgba(184, 134, 11, 0.3);
+  --events-hero-bg: #f7f2e8;
+  --events-hero-text: #1f1c18;
+  --events-body-bg: #ffffff;
+  --events-body-text: #2a2520;
+  --values-overlay-start: rgba(0, 0, 0, 0.08);
+  --values-overlay-end: rgba(0, 0, 0, 0.12);
+  --values-title: #7a0c0c;
+  --values-text: rgba(31, 28, 24, 0.85);
+  --values-text-muted: rgba(55, 49, 41, 0.78);
+  --values-border: rgba(139, 107, 47, 0.5);
+  --values-hover-bg: rgba(255, 255, 255, 0.85);
+  --nav-bg: rgba(255, 255, 255, 0.9);
+  --nav-border: rgba(0, 0, 0, 0.08);
+  --nav-text: #1f1c18;
+  --nav-link: #2a2520;
+  --nav-link-hover: #8b0000;
+}
+
+body {
+  background: var(--app-bg);
+  color: var(--app-text);
+}
+
+body, button, input, select, textarea {
+  transition: background-color 180ms ease, color 180ms ease, border-color 180ms ease;
+}

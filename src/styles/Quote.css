@@ -1,0 +1,100 @@
+/* ===============================
+   QUOTE SECTION
+   =============================== */
+
+/*
+  Design goals:
+  - Calm and contemplative
+  - Minimal, modern, timeless
+  - Feels like a pause between sections
+*/
+
+.quote {
+  position: relative;
+  padding: 6rem 2rem;
+  background-color: var(--quote-bg);
+  color: var(--quote-text);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  overflow: hidden;
+  border-bottom: none; /* ensure no stray separator line appears */
+}
+
+/* Subtle decorative glow */
+.quote::before {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(
+    circle,
+    var(--quote-accent),
+    transparent 70%
+  );
+  top: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+/* ===============================
+   BLOCKQUOTE
+   =============================== */
+
+.quote blockquote {
+  max-width: 850px;
+
+  font-size: clamp(1.4rem, 3vw, 2.1rem);
+  font-weight: 300;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+/* Decorative quotation mark */
+.quote blockquote::before {
+  content: "“";
+  position: absolute;
+  top: -3rem;
+  left: 50%;
+  transform: translateX(-50%);
+
+  font-size: 6rem;
+  color: var(--quote-accent);
+  font-family: serif;
+}
+
+/* ===============================
+   CITE
+   =============================== */
+
+.quote cite {
+  font-size: 0.95rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1px;
+
+  color: var(--accent);
+  text-transform: uppercase;
+}
+
+/* ===============================
+   RESPONSIVE
+   =============================== */
+
+@media (max-width: 768px) {
+  .quote {
+    padding: 5rem 1.5rem;
+  }
+
+  .quote blockquote::before {
+    font-size: 4.5rem;
+    top: -2.5rem;
+  }
+}

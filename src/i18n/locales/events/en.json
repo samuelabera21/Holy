@@ -1,0 +1,11 @@
+{
+  "eventsDetail": {
+    "breadcrumbs": {
+      "home": "Home",
+      "events": "Events"
+    },
+    "notFound": "Event not found",
+    "about": "About this event",
+    "videoFallback": "Your browser does not support the video tag."
+  }
+}

@@ -1,0 +1,118 @@
+/* ===============================
+   HERO SECTION
+   =============================== */
+
+/*
+  The hero section is the first visual impression.
+  It should:
+  - Fill most of the viewport
+  - Center content vertically
+  - Feel calm, spiritual, and welcoming
+*/
+
+.hero {
+  min-height: 80vh;
+  width: 100%;
+
+  /* lighter top fade, stronger at bottom to keep text readable but let image show through */
+  background:
+    linear-gradient(180deg, var(--hero-shade-soft) 0%, var(--hero-shade-strong) 100%),
+    var(--hero-bg);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+}
+
+
+/* ===============================
+   HERO CONTENT
+   =============================== */
+
+.hero-content {
+  max-width: 980px;
+  padding: 0 2rem;
+  color: var(--hero-text);
+  backface-visibility: hidden;
+}
+
+/* Main headline */
+.hero-content h1 {
+  font-size: clamp(1.9rem, 3.6vw, 3.2rem);
+  font-weight: 700;
+  line-height: 1.14;
+  margin-bottom: 0.9rem;
+  color: var(--hero-text);
+  letter-spacing: 0.2px;
+  text-shadow: 0 6px 18px var(--hero-text-shadow);
+}
+
+/* small decorative accent under the main title */
+.hero-content h1::after {
+  content: "";
+  display: block;
+  width: 86px;
+  height: 4px;
+  margin: 14px auto 0;
+  border-radius: 4px;
+  background: linear-gradient(90deg, var(--accent), rgba(200, 170, 80, 0.9));
+  box-shadow: 0 6px 18px rgba(176,137,59,0.12);
+}
+
+/* Supporting text */
+.hero-content p {
+  font-size: clamp(0.95rem, 1.6vw, 1.15rem);
+  line-height: 1.7;
+  max-width: 720px;
+  margin: 0 auto 1.8rem;
+  color: var(--hero-text-muted);
+  text-shadow: 0 3px 10px var(--hero-text-shadow-soft);
+}
+
+/* ===============================
+   SOCIAL LINKS
+   =============================== */
+
+.hero-socials {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.hero-socials a {
+  text-decoration: none;
+  color: var(--hero-link);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+
+  transition: color 200ms ease, border-color 200ms ease, transform 200ms ease;
+}
+
+/* Hover effect */
+.hero-socials a:hover {
+  border-color: var(--accent);
+  color: var(--hero-link-hover);
+}
+
+/* ===============================
+   RESPONSIVE DESIGN
+   =============================== */
+
+@media (max-width: 900px) {
+  .hero { min-height: 68vh; }
+  .hero-content { text-align: center; padding: 0 1.2rem; }
+  .hero-content h1::after { margin-left: auto; margin-right: auto; }
+}
+
+@media (max-width: 480px) {
+  .hero { min-height: 60vh; }
+  .hero-content h1 { font-size: clamp(1.4rem, 4.5vw, 1.9rem); line-height: 1.08; }
+  .hero-content p { font-size: 0.95rem; }
+  .hero-socials { justify-content: center; gap: 12px; }
+}
