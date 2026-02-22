@@ -16,7 +16,7 @@ function Hero() {
   const { t } = useTranslation();
 
   return (
-    <section className="hero" style={{ "--hero-bg": `url(${heroImage})` }}>
+    <section className="hero home-hero" style={{ "--hero-bg": `url(${heroImage})` }}>
       <div className="hero-content">
         <h1>
           <Trans i18nKey="home.hero.title">
