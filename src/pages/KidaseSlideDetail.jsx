@@ -110,9 +110,11 @@ function KidaseSlideDetail() {
 
   const languageTitle = t(`kidase.languages.${lang}`);
   const typeTitle = t(`kidase.content.${lang}.types.${typeId}.title`);
-  const slideCaption = t(
-    `kidase.content.${lang}.types.${typeId}.slides.${slide.id}.caption`
-  );
+  const captionKey = `kidase.content.${lang}.types.${typeId}.slides.${slide.id}.caption`;
+  const translatedCaption = t(captionKey);
+  const slideCaption = translatedCaption !== captionKey
+    ? translatedCaption
+    : (slide.caption || `${typeTitle} ${slide.id}`);
   const heroImage = "/kidase/geez/hero.png";
 
   useEffect(() => {

@@ -5,7 +5,17 @@
 /* Image: keep aspect ratio, avoid cropping, scale down to fit viewport but allow vertical scroll */
 .ks-image{ display:block; max-width:100%; width:auto; height:auto; object-fit:contain }
 .ks-figure{ max-width:960px }
-.ks-credit{ text-align:center; color:var(--muted); margin-top:10px; font-size:14px }
+.ks-credit{
+  text-align:center;
+  color:var(--text-strong);
+  margin-top:12px;
+  font-size:14px;
+  line-height:1.45;
+  display:inline-block;
+  padding:6px 10px;
+  border-radius:8px;
+  background:rgba(0,0,0,0.28);
+}
 
 .ks-audio{ margin-top:8px }
 .ks-audio audio{ display:none }

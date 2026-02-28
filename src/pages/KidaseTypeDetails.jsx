@@ -65,17 +65,13 @@
 
 
 import { useParams, Link } from "react-router-dom";
-import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import kidase from "../data/teachings/kidase";
 import "../styles/KidaseTypesSimple.css";
 import "../styles/KidaseTypeDetailsSimple.css";
 
-const ITEMS_PER_PAGE = 6;
-
 function KidaseTypeDetails() {
   const { lang, typeId } = useParams();
-  const [page, setPage] = useState(1);
   const { t } = useTranslation();
 
   const language = kidase.languages[lang];
@@ -88,9 +84,7 @@ function KidaseTypeDetails() {
   const typeTitle = t(`kidase.content.${lang}.types.${typeId}.title`);
   const heroImage = "/kidase/geez/hero.png";
 
-  const totalPages = Math.ceil(type.slides.length / ITEMS_PER_PAGE);
-  const start = (page - 1) * ITEMS_PER_PAGE;
-  const visibleSlides = type.slides.slice(start, start + ITEMS_PER_PAGE);
+  const visibleSlides = type.slides;
 
   return (
     <div className="kidase-simple-page">
@@ -134,9 +128,11 @@ function KidaseTypeDetails() {
 
         <div className="cards-grid kidase-slides-grid">
           {visibleSlides.map((slide) => {
-            const slideCaption = t(
-              `kidase.content.${lang}.types.${typeId}.slides.${slide.id}.caption`
-            );
+            const captionKey = `kidase.content.${lang}.types.${typeId}.slides.${slide.id}.caption`;
+            const translatedCaption = t(captionKey);
+            const slideCaption = translatedCaption !== captionKey
+              ? translatedCaption
+              : (slide.caption || `${typeTitle} ${slide.id}`);
             return (
               <Link
                 key={slide.id}
@@ -147,7 +143,7 @@ function KidaseTypeDetails() {
                   <img src={slide.image} alt={slideCaption} />
                 </div>
                 <div className="card-content">
-                  <h3 className="card-title">{slideCaption}</h3>
+                  <h3 className="card-title kidase-slide-caption">{slideCaption}</h3>
                   <p className="card-desc">
                     {t("kidase.typeDetails.cardDescription")}
                   </p>
@@ -156,25 +152,6 @@ function KidaseTypeDetails() {
             );
           })}
         </div>
-
-        {totalPages > 1 && (
-          <div className="kidase-pagination">
-            <button disabled={page === 1} onClick={() => setPage((p) => p - 1)}>
-              {t("kidase.pagination.previous")}
-            </button>
-
-            <span>
-              {t("kidase.pagination.pageOf", {
-                page,
-                total: totalPages
-              })}
-            </span>
-
-            <button disabled={page === totalPages} onClick={() => setPage((p) => p + 1)}>
-              {t("kidase.pagination.next")}
-            </button>
-          </div>
-        )}
       </div>
     </div>
   );
