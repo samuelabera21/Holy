@@ -378,6 +378,138 @@ const kidase = {
               image: "/kidase/zewetr/slides/99.png",
               audio: "/kidase/zewetr/audio/99.mp3",
               caption: "99"
+            },
+            {
+              id: 63,
+              image: "/kidase/zewetr/slides/100.png",
+              audio: "/kidase/zewetr/audio/100.mp3",
+              caption: "100"
+            },
+            {
+              id: 64,
+              image: "/kidase/zewetr/slides/101.png",
+              audio: "/kidase/zewetr/audio/101.mp3",
+              caption: "101"
+            },
+            {
+              id: 65,
+              image: "/kidase/zewetr/slides/102.png",
+              audio: "/kidase/zewetr/audio/102.mp3",
+              caption: "102"
+            },
+            {
+              id: 66,
+              image: "/kidase/zewetr/slides/103.png",
+              audio: "/kidase/zewetr/audio/103.mp3",
+              caption: "103"
+            },
+            {
+              id: 67,
+              image: "/kidase/zewetr/slides/104.png",
+              audio: "/kidase/zewetr/audio/104.mp3",
+              caption: "104"
+            },
+            {
+              id: 68,
+              image: "/kidase/zewetr/slides/105.png",
+              audio: "/kidase/zewetr/audio/105.mp3",
+              caption: "105"
+            },
+            {
+              id: 69,
+              image: "/kidase/zewetr/slides/106.png",
+              audio: "/kidase/zewetr/audio/106.mp3",
+              caption: "106"
+            },
+            {
+              id: 70,
+              image: "/kidase/zewetr/slides/107.png",
+              audio: "/kidase/zewetr/audio/107.mp3",
+              caption: "107"
+            },
+            {
+              id: 71,
+              image: "/kidase/zewetr/slides/108.png",
+              audio: "/kidase/zewetr/audio/108.mp3",
+              caption: "108"
+            },
+            {
+              id: 72,
+              image: "/kidase/zewetr/slides/109.png",
+              audio: "/kidase/zewetr/audio/109.mp3",
+              caption: "109"
+            },
+            {
+              id: 73,
+              image: "/kidase/zewetr/slides/110.png",
+              audio: "/kidase/zewetr/audio/110.mp3",
+              caption: "110"
+            },
+            {
+              id: 74,
+              image: "/kidase/zewetr/slides/111.png",
+              audio: "/kidase/zewetr/audio/111.mp3",
+              caption: "111"
+            },
+            {
+              id: 75,
+              image: "/kidase/zewetr/slides/112.png",
+              audio: "/kidase/zewetr/audio/112.mp3",
+              caption: "112"
+            },
+            {
+              id: 76,
+              image: "/kidase/zewetr/slides/113.png",
+              audio: "/kidase/zewetr/audio/113.mp3",
+              caption: "113"
+            },
+            {
+              id: 77,
+              image: "/kidase/zewetr/slides/114.png",
+              audio: "/kidase/zewetr/audio/114.mp3",
+              caption: "114"
+            },
+            {
+              id: 78,
+              image: "/kidase/zewetr/slides/115.png",
+              audio: "/kidase/zewetr/audio/115.mp3",
+              caption: "115"
+            },
+            {
+              id: 79,
+              image: "/kidase/zewetr/slides/116.png",
+              audio: "/kidase/zewetr/audio/116.mp3",
+              caption: "116"
+            },
+            {
+              id: 80,
+              image: "/kidase/zewetr/slides/117.png",
+              audio: "/kidase/zewetr/audio/117.mp3",
+              caption: "117"
+            },
+            {
+              id: 81,
+              image: "/kidase/zewetr/slides/118.png",
+              audio: "/kidase/zewetr/audio/118.mp3",
+              caption: "118"
+            },
+            {
+              id: 82,
+              image: "/kidase/zewetr/slides/119.png",
+              audio: "/kidase/zewetr/audio/119.mp3",
+              caption: "119"
+            },
+            {
+              id: 83,
+              image: "/kidase/zewetr/slides/120.png",
+              audio: "/kidase/zewetr/audio/120.mp3",
+              caption: "120"
+            },
+            {
+              id: 84,
+              image: "/kidase/zewetr/slides/121.png",
+              audio: "/kidase/zewetr/audio/121.mp3",
+              caption: "121"
             }
           ]
         },
