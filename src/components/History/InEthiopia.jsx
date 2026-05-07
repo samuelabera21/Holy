@@ -1,16 +1,3 @@
-// function InEthiopia() {
-//   return (
-//     <section className="history-section">
-//       <h2>Orthodox Christianity in Ethiopia</h2>
-//       <p>
-//         This section will describe how Christianity reached Ethiopia, who introduced it,
-//         and how it became deeply rooted in Ethiopian culture.
-//       </p>
-//     </section>
-//   );
-// }
-
-// export default InEthiopia;
 
 
 import { useTranslation } from "react-i18next";
@@ -18,7 +5,7 @@ import "../../styles/history/InEthiopia.css";
 
 function InEthiopia() {
   const { t } = useTranslation();
-  const videoSrc = `https://www.youtube-nocookie.com/embed/IxbW1JiskFs?rel=0&modestbranding=1&playsinline=1&origin=${encodeURIComponent(window.location.origin)}`;
+  const videoSrc = `https://www.youtube-nocookie.com/embed/u6G-qfYA8yY?rel=0&modestbranding=1&playsinline=1&origin=${encodeURIComponent(window.location.origin)}`;
 
   return (
     <section className="history-ethiopia" id="history-ethiopia">
