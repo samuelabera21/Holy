@@ -57,7 +57,7 @@ i18n.use(initReactI18next).init({
   },
   returnNull: false,
   returnEmptyString: false,
-  parseMissingKeyHandler: () => "Demo"
+  parseMissingKeyHandler: () => "በቅርቡ ይጠብቁን"
 });
 
 i18n.on("languageChanged", (lng) => {
