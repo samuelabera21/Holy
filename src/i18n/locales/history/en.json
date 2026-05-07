@@ -84,30 +84,35 @@
           "location": "Axum, Ethiopia",
           "significance": "One of the most sacred churches in Ethiopian Orthodoxy, traditionally believed to house the Ark of the Covenant."
         },
-        "holy-sepulchre": {
-          "name": "Church of the Holy Sepulchre",
-          "location": "Jerusalem",
-          "significance": "Built on the site of Jesus Christ\u2019s crucifixion, burial, and resurrection."
+        "lalibela-churches": {
+          "name": "Rock-Hewn Churches of Lalibela",
+          "location": "Lalibela, Ethiopia",
+          "significance": "Eleven monolithic, subterranean churches carved from volcanic rock in the 12th–13th centuries by King Lalibela as a 'New Jerusalem.' Listed as a UNESCO World Heritage site in 1978."
         },
-        "hagia-sophia": {
-          "name": "Hagia Sophia",
-          "location": "Istanbul, Turkey",
-          "significance": "For centuries, Hagia Sophia was the heart of Eastern Orthodox Christianity."
+        "holy-trinity-addis": {
+          "name": "Holy Trinity Cathedral",
+          "location": "Addis Ababa, Ethiopia",
+          "significance": "A major cathedral serving as a primary religious center, known for its architecture, stained glass, and as the burial place of Emperor Haile Selassie."
         },
-        "saint-sava": {
-          "name": "Temple of Saint Sava",
-          "location": "Belgrade, Serbia",
-          "significance": "One of the largest Orthodox churches in the world and a symbol of Serbian Orthodoxy."
+        "debre-birhan-selassie": {
+          "name": "Debre Birhan Selassie Church",
+          "location": "Gondar, Ethiopia",
+          "significance": "Famed for its beautiful 17th-century paintings and ceiling adorned with faces of angels, representing a masterpiece of Ethiopian Orthodox art."
         },
-        "alexander-nevsky": {
-          "name": "Alexander Nevsky Cathedral",
-          "location": "Sofia, Bulgaria",
-          "significance": "A monumental cathedral built in honor of Saint Alexander Nevsky."
+        "bole-medhane-alem": {
+          "name": "Bole Medhane Alem Cathedral",
+          "location": "Addis Ababa, Ethiopia",
+          "significance": "The largest Orthodox cathedral in Ethiopia and the second largest in Africa, serving as a center of worship and spiritual life."
         },
-        "trinity-lavra": {
-          "name": "Trinity Lavra of St. Sergius",
-          "location": "Sergiyev Posad, Russia",
-          "significance": "The spiritual center of the Russian Orthodox Church."
+        "abune-yemata-guh": {
+          "name": "Abune Yemata Guh",
+          "location": "Tigray Region, Ethiopia",
+          "significance": "A stunning 6th-century rock church carved into a sheer cliff 2,580 meters above sea level, remaining a testament to ancient Ethiopian Orthodox engineering."
+        },
+        "debre-libanos": {
+          "name": "Debre Libanos",
+          "location": "100 km north of Addis Ababa, Ethiopia",
+          "significance": "One of Ethiopia's most historically significant monastic enclaves, established in 1284 by Saint Tekle Haymanot. For centuries, its chief abbot was the second most powerful official in the Ethiopian Church."
         }
       }
     },
@@ -116,28 +121,28 @@
       "subtitle": "Saints and theologians who shaped Orthodox faith, worship, and tradition across centuries.",
       "items": {
         "1": {
-          "name": "St. Athanasius",
-          "title": "Defender of the Trinity",
-          "era": "4th Century",
-          "description": "A central figure in Orthodox theology, known for defending the divinity of Christ against Arianism."
+          "name": "St. Tekle Haymanot",
+          "title": "Founder of Debre Libanos",
+          "era": "13th Century",
+          "description": "An influential Ethiopian saint who founded the monastery of Debre Libanos and is credited with revitalizing the church during the early Solomonic dynasty."
         },
         "2": {
-          "name": "St. Cyril of Alexandria",
-          "title": "Pillar of Orthodoxy",
-          "era": "5th Century",
-          "description": "A powerful theologian who played a decisive role in defining Orthodox Christology."
+          "name": "Abba Garima",
+          "title": "One of the Nine Saints",
+          "era": "6th Century",
+          "description": "One of the Nine Saints who founded the monastery in Adwa and is traditionally credited with creating the earliest illuminated manuscripts (Garima Gospels)."
         },
         "3": {
           "name": "St. Yared",
           "title": "Father of Ethiopian Church Music",
           "era": "6th Century",
-          "description": "Composer of the sacred Ethiopian Orthodox chants still sung today."
+          "description": "A legendary saint credited with creating the liturgical music, chant system (Zema), and musical notation of the Ethiopian Church, which is still used today."
         },
         "4": {
-          "name": "St. Tekle Haymanot",
-          "title": "Monk & Miracle Worker",
-          "era": "13th Century",
-          "description": "A revered Ethiopian saint known for ascetic life and spiritual discipline."
+          "name": "St. Frumentius",
+          "title": "First Bishop of Ethiopia",
+          "era": "4th Century",
+          "description": "Credited with converting King Ezana of Axum to Christianity and becoming the first Bishop of Ethiopia, laying the foundation for the Ethiopian Orthodox Church."
         }
       }
     }
