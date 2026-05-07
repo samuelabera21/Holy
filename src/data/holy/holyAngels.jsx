@@ -2,7 +2,7 @@ const holyAngels = [
   {
     id: "michael",
     image: "/holy/michael.jpg",
-    video: "https://youtu.be/navPQI3LfJo?si=9YZ4J8wUcBqSdiP0"
+    video: "https://youtu.be/7Sx-EHDHqqw?si=JeYzTQ0U-0NYNxWY"
   },
   {
     id: "gebrel",
@@ -12,7 +12,7 @@ const holyAngels = [
   {
     id: "rufael",
     image: "/holy/michael.jpg",
-    video: "https://youtu.be/t8QXKR6fcUU?si=XjqCLUuGtRo68yRo"
+    video: "https://youtu.be/t-5fOQnIjus?si=oZHeayck-1qop7Oj"
   },
   {
     id: "raguel",
