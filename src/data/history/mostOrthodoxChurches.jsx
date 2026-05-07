@@ -3,59 +3,63 @@ const mostOrthodoxChurches = [
     id: "mary-of-zion",
     rank: 1,
     media: {
-      type: "video", // "image" | "video"
-       src: "/media/most/value1.mp4",
+      type: "video",
+      src: "/media/most/value1.mp4",
       poster: "/most/mary-of-zion.jpg",
     },
   },
 
   {
-    id: "holy-sepulchre",
+    id: "lalibela-churches",
     rank: 2,
     media: {
-      type: "video",
-       src: "/media/most/value1.mp4",
-      poster: "/media/most/holy-sepulchre.jpg",
+      type: "image",
+      src: "/history/lalibela church.jpg",
     },
   },
 
   {
-    id: "hagia-sophia",
+    id: "holy-trinity-addis",
     rank: 3,
     media: {
-      type: "video",
-       src: "/media/most/value1.mp4",
-      poster: "/media/most/hagia-sophia.jpg",
+      type: "image",
+      src: "/history/holy.jpg",
     },
   },
 
   {
-    id: "saint-sava",
+    id: "debre-birhan-selassie",
     rank: 4,
     media: {
-      type: "video",
-     src: "/media/most/value1.mp4",
-      poster: "/media/most/saint-sava.jpg",
+      type: "image",
+      src: "/history/Debreberhan.jpg",
     },
   },
 
   {
-    id: "alexander-nevsky",
+    id: "bole-medhane-alem",
     rank: 5,
     media: {
-      type: "video",
-      src: "/media/most/value1.mp4",
-      poster: "/media/most/alexander-nevsky.jpg",
+      type: "image",
+      src: "/history/bole.jpg",
     },
   },
 
   {
-    id: "trinity-lavra",
+    id: "abune-yemata-guh",
     rank: 6,
     media: {
-      type: "video",
-       src: "/media/most/value1.mp4",
-      poster: "/media/most/trinity-lavra.jpg",
+      type: "image",
+      src: "/history/tigray.jpg",
+    },
+  },
+
+  {
+    id: "debre-libanos",
+    rank: 7,
+    media: {
+      type: "image",
+      src: "/history/ebrelibanos.jpg",
     },
   },
 ];
