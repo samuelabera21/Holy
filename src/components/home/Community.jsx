@@ -68,7 +68,7 @@ function Community() {
   const sectionRef = useRef(null);
   const [visible, setVisible] = useState(false);
   const navigate = useNavigate(); // for navigation
-  const videoSrc = `https://www.youtube-nocookie.com/embed/j2qkxQB8RA4?rel=0&modestbranding=1&playsinline=1&origin=${encodeURIComponent(window.location.origin)}`;
+  const videoSrc = `https://www.youtube-nocookie.com/embed/VBu1-iUWEJk?rel=0&modestbranding=1&playsinline=1&origin=${encodeURIComponent(window.location.origin)}`;
 
   useEffect(() => {
     const observer = new IntersectionObserver(
