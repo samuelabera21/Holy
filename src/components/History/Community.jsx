@@ -61,6 +61,7 @@ function Community() {
                 <video
                   src={country.media.src}
                   poster={country.media.poster}
+                  controls={country.media.controls ?? false}
                   autoPlay
                   muted
                   loop
