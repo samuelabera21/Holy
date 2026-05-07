@@ -83,6 +83,7 @@ function KidaseTypeDetails() {
   const languageTitle = t(`kidase.languages.${lang}`);
   const typeTitle = t(`kidase.content.${lang}.types.${typeId}.title`);
   const heroImage = "/kidase/geez/hero.png";
+  const isComingSoon = lang === "geez" && typeId !== "zewetr";
 
   const visibleSlides = type.slides;
 
@@ -127,30 +128,38 @@ function KidaseTypeDetails() {
         </header>
 
         <div className="cards-grid kidase-slides-grid">
-          {visibleSlides.map((slide) => {
-            const captionKey = `kidase.content.${lang}.types.${typeId}.slides.${slide.id}.caption`;
-            const translatedCaption = t(captionKey);
-            const slideCaption = translatedCaption !== captionKey
-              ? translatedCaption
-              : (slide.caption || `${typeTitle} ${slide.id}`);
-            return (
-              <Link
-                key={slide.id}
-                to={`/teachings/kidase/${lang}/${typeId}/${slide.id}`}
-                className="teach-card"
-              >
-                <div className="card-img-wrap">
-                  <img src={slide.image} alt={slideCaption} />
-                </div>
-                <div className="card-content">
-                  <h3 className="card-title kidase-slide-caption">{slideCaption}</h3>
-                  <p className="card-desc">
-                    {t("kidase.typeDetails.cardDescription")}
-                  </p>
-                </div>
-              </Link>
-            );
-          })}
+          {isComingSoon ? (
+            <div className="teach-card kidase-coming-soon-card">
+              <div className="kidase-coming-soon-panel">
+                <p>{t("kidase.comingSoon", { defaultValue: "በቅርቡ ይጠብቁን" })}</p>
+              </div>
+            </div>
+          ) : (
+            visibleSlides.map((slide) => {
+              const captionKey = `kidase.content.${lang}.types.${typeId}.slides.${slide.id}.caption`;
+              const translatedCaption = t(captionKey);
+              const slideCaption = translatedCaption !== captionKey
+                ? translatedCaption
+                : (slide.caption || `${typeTitle} ${slide.id}`);
+              return (
+                <Link
+                  key={slide.id}
+                  to={`/teachings/kidase/${lang}/${typeId}/${slide.id}`}
+                  className="teach-card"
+                >
+                  <div className="card-img-wrap">
+                    <img src={slide.image} alt={slideCaption} />
+                  </div>
+                  <div className="card-content">
+                    <h3 className="card-title kidase-slide-caption">{slideCaption}</h3>
+                    <p className="card-desc">
+                      {t("kidase.typeDetails.cardDescription")}
+                    </p>
+                  </div>
+                </Link>
+              );
+            })
+          )}
         </div>
       </div>
     </div>
