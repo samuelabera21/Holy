@@ -5,12 +5,13 @@ const topOrthodoxCountries = [
 
     statistics: {
       totalOrthodox: 45000000,
-      percentageOfPopulation: 43
+      percentageOfPopulation: 44
     },
 
     media: {
-      type: "youtube",
-      id: "IxbW1JiskFs",
+      type: "video",
+      src: "/media/countries/ethiopian.mp4",
+      poster: "/media/countries/ethiopia.jpg",
     },
 
   },
@@ -20,8 +21,8 @@ const topOrthodoxCountries = [
     rank: 2,
 
     statistics: {
-      totalOrthodox: 41000000,
-      percentageOfPopulation: 28
+      totalOrthodox: 104000000,
+      percentageOfPopulation: 65
     },
 
     media: {
@@ -37,8 +38,8 @@ const topOrthodoxCountries = [
     rank: 3,
 
     statistics: {
-      totalOrthodox: 10000000,
-      percentageOfPopulation: 90
+      totalOrthodox: 9400000,
+      percentageOfPopulation: 85
     },
 
     media: {
@@ -54,8 +55,8 @@ const topOrthodoxCountries = [
     rank: 4,
 
     statistics: {
-      totalOrthodox: 16000000,
-      percentageOfPopulation: 85
+      totalOrthodox: 14000000,
+      percentageOfPopulation: 73
     },
 
     media: {
@@ -72,7 +73,7 @@ const topOrthodoxCountries = [
 
     statistics: {
       totalOrthodox: 6000000,
-      percentageOfPopulation: 84
+      percentageOfPopulation: 81
     },
 
     media: {
@@ -89,7 +90,7 @@ const topOrthodoxCountries = [
 
     statistics: {
       totalOrthodox: 5000000,
-      percentageOfPopulation: 75
+      percentageOfPopulation: 62
     },
 
     media: {
@@ -118,29 +119,12 @@ const topOrthodoxCountries = [
   },
 
   {
-    id: "ukraine",
+    id: "georgia",
     rank: 8,
 
     statistics: {
-      totalOrthodox: 15000000,
-      percentageOfPopulation: 35
-    },
-
-    media: {
-      type: "video",
-      src: "/media/countries/ukraine.mp4",
-      poster: "/media/countries/ukraine.jpg",
-    },
-
-  },
-
-  {
-    id: "georgia",
-    rank: 9,
-
-    statistics: {
-      totalOrthodox: 3700000,
-      percentageOfPopulation: 83
+      totalOrthodox: 3200000,
+      percentageOfPopulation: 84
     },
 
     media: {
