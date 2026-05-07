@@ -1,19 +1,19 @@
 const famousFigures = [
   {
     id: 1,
-    image: "/famous/yared.jpg"
+    image: "/famous/teklehaymanot.jpg"
   },
   {
     id: 2,
-    image: "/famous/yared.jpg"
+    image: "/famous/abagerima.jpg"
   },
   {
     id: 3,
-    image: "/famous/yared.jpg",
+    image: "/famous/kidusyared.jpg",
   },
   {
     id: 4,
-    image: "/famous/yared.jpg"
+    image: "/famous/freminatos.jpg"
   },
 ];
 
