@@ -187,7 +187,7 @@ body {
   flex: 1 1 320px;
   min-width: 260px;
   height: clamp(180px, 28vw, 360px);
-  background: url("/path/to/your-community-image.jpg");
+  background: url("/history/holy.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 10px;

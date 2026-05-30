@@ -9,9 +9,8 @@ const topOrthodoxCountries = [
     },
 
     media: {
-      type: "video",
-      src: "/media/countries/ethiopian.mp4",
-      poster: "/media/countries/ethiopia.jpg",
+      type: "image",
+      src: "/media/countries/ethiopia.jpg",
     },
 
   },
@@ -26,9 +25,8 @@ const topOrthodoxCountries = [
     },
 
     media: {
-      type: "video",
-      src: "/media/countries/russia.mp4",
-      poster: "/media/countries/russia.jpg",
+      type: "image",
+      src: "/media/countries/zewetr.jpg",
     },
 
   },
@@ -43,9 +41,8 @@ const topOrthodoxCountries = [
     },
 
     media: {
-      type: "video",
-      src: "/media/countries/greece.mp4",
-      poster: "/media/countries/greece.jpg",
+      type: "image",
+      src: "/history/tigray.jpg",
     },
 
   },
@@ -60,9 +57,8 @@ const topOrthodoxCountries = [
     },
 
     media: {
-      type: "video",
-      src: "/media/countries/romania.mp4",
-      poster: "/media/countries/romania.jpg",
+      type: "image",
+      src: "/history/lalibela church.jpg",
     },
 
   },
@@ -77,9 +73,8 @@ const topOrthodoxCountries = [
     },
 
     media: {
-      type: "video",
-      src: "/media/countries/serbia.mp4",
-      poster: "/media/countries/serbia.jpg",
+      type: "image",
+      src: "/history/holy.jpg",
     },
 
   },
@@ -94,9 +89,8 @@ const topOrthodoxCountries = [
     },
 
     media: {
-      type: "video",
-      src: "/media/countries/bulgaria.mp4",
-      poster: "/media/countries/bulgaria.jpg",
+      type: "image",
+      src: "/history/ebrelibanos.jpg",
     },
 
   },
@@ -111,9 +105,8 @@ const topOrthodoxCountries = [
     },
 
     media: {
-      type: "video",
-      src: "/media/countries/egypt.mp4",
-      poster: "/media/countries/egypt.jpg",
+      type: "image",
+      src: "/history/Debreberhan.jpg",
     },
 
   },
@@ -128,9 +121,8 @@ const topOrthodoxCountries = [
     },
 
     media: {
-      type: "video",
-      src: "/media/countries/georgia.mp4",
-      poster: "/media/countries/georgia.jpg",
+      type: "image",
+      src: "/history/bole.jpg",
     },
 
   },

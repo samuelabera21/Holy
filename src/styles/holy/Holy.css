@@ -6,7 +6,7 @@
 /* HERO */
 .holy-hero {
   height: 70vh;
-  background: url("/holy/hero.jpg") center/cover no-repeat;
+  background: url("/holy/michael.jpg") center/cover no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;

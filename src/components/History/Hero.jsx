@@ -21,16 +21,12 @@ function Hero() {
 
   return (
     <section className="history-hero">
-      {/* Background video */}
-      <video
+      <img
         className="history-hero-video"
-        autoPlay
-        muted
-        loop
-        playsInline
-      >
-        <source src="/history/history.mp4" type="video/mp4" />
-      </video>
+        src="/history/holy.jpg"
+        alt=""
+        aria-hidden="true"
+      />
 
       {/* Overlay */}
       <div className="history-hero-overlay" />

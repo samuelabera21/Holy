@@ -3,9 +3,8 @@ const mostOrthodoxChurches = [
     id: "mary-of-zion",
     rank: 1,
     media: {
-      type: "video",
-      src: "/media/most/value1.mp4",
-      poster: "/most/mary-of-zion.jpg",
+      type: "image",
+      src: "/history/holy.jpg",
     },
   },
 
