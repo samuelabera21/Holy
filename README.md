@@ -1,5 +1,5 @@
 # Orthodox Church Web App
-Sam8el ab
+Sam8el a
 
 -live link :  https://orthodox-tewahdo.netlify.app/
 
