@@ -1,6 +1,6 @@
 # Orthodox Church Web App
 
-samuel abera
+samuel aber
 
 -live link :  https://orthodox-tewahdo.netlify.app/
 
