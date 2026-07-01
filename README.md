@@ -1,6 +1,6 @@
 # Orthodox Church Web App
 
-samuel ab
+samuel a
 
 -live link :  https://orthodox-tewahdo.netlify.app/
 
