@@ -1,5 +1,5 @@
 # Orthodox Church Web App
-samuel abera meko
+samuel abera mek
 
 -live link :  https://orthodox-tewahdo.netlify.app/
 
