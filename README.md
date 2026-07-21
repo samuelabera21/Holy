@@ -1,5 +1,5 @@
 # Orthodox Church Web App
-smuel aber
+smuel abe
 
 live link :  https://orthodox-tewahdo.netlify.app/
 
