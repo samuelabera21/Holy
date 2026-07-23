@@ -1,5 +1,5 @@
 # Orthodox Church Web App
-samu3l abera mekonn abe
+samu3l abera mekonn ab
 live link :  https://orthodox-tewahdo.netlify.app/
 
 This is a React + Vite site for Orthodox church content, including books, videos, history, and holy angel sections.
