@@ -4,92 +4,84 @@
 
 .events {
   position: relative;
-  min-height: 100vh;
-  padding: 0; /* hero-style full height */
-
+  min-height: 68vh;
+  padding: 0;
   overflow: hidden;
   text-align: center;
   background: var(--events-hero-bg);
-  margin-top: -1px; /* remove hairline gap between sections */
+  margin-top: -1px;
 }
 
-/* BACKGROUND VIDEO (full-bleed) */
-/* remove background-video rules (Events now uses images per-section) */
-
-/* HERO CONTENT - centered like Holy slider */
 .events-content {
-  position: relative; /* place at top center of the section */
+  position: relative;
   z-index: 2;
   text-align: center;
   color: var(--events-hero-text);
   max-width: 900px;
-  padding: 20px;
-  margin: 28px auto 0;
+  padding: 1.25rem 1rem 0;
+  margin: 1rem auto 0;
 }
 
 .events-content h2 {
-  font-size: 3rem;
-  margin-bottom: 10px;
+  font-size: clamp(2rem, 7vw, 3rem);
+  margin-bottom: 0.75rem;
   font-weight: 700;
   color: var(--accent);
 }
 
 .events-content p {
-  font-size: 1.1rem;
-  margin-bottom: 2rem;
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
   color: inherit;
 }
 
 .events-content .subtitle {
   color: var(--accent);
-  font-size: 1.6rem;
-  margin-top: 0.4rem;
+  font-size: 1.2rem;
+  margin-top: 0.35rem;
 }
 
-/* EVENT GRID - sits below the hero in a light container */
 .event-list-wrap {
   position: relative;
   z-index: 2;
-  margin-top: calc(100vh - 120px); /* bring cards into view below hero */
+  margin-top: 1rem;
   background: var(--events-body-bg);
-  padding: 3rem 2rem 6rem;
+  padding: 1.5rem 1rem 3rem;
 }
 
 .event-list {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2.5rem;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
 }
 
-/* Events container using alternating image + description sections */
 .events-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 3rem 2rem 6rem;
+  padding: 2rem 1rem 4rem;
   background: var(--events-body-bg);
-  border-top: none; /* avoid visible hairline with preceding section */
+  border-top: none;
 }
 
-
-/* Body layout similar to HolyDetail */
 .events-section {
   display: flex;
-  gap: 40px;
-  margin-bottom: 3.5rem;
-  align-items: flex-start;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-bottom: 2.2rem;
+  align-items: stretch;
+  min-height: auto;
 }
 
 .events-section.reverse {
-  flex-direction: row-reverse;
+  flex-direction: column;
 }
 
-/* IMAGE SIDE - sticky like HolyDetail */
 .events-section .image-wrapper {
-  flex: 0 0 340px;
-  max-width: 100%;
-  align-self: flex-start;
+  width: 100%;
+  max-width: 380px;
+  margin: 0 auto;
   box-sizing: border-box;
 }
 
@@ -101,32 +93,24 @@
   max-height: 70vh;
   border-radius: 16px;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
-  object-fit: contain; /* never crop */
+  object-fit: contain;
   background: var(--card-bg);
-}
-
-/* TEXT SIDE */
-.events-section {
-  /* ensure each section fills enough vertical space so image stays visible
-     and the text column can scroll independently */
-  min-height: 70vh;
 }
 
 .events-desc {
   flex: 1 1 auto;
   min-width: 0;
-  font-size: 18px;
-  line-height: 2;
+  font-size: 1rem;
+  line-height: 1.8;
   color: var(--events-body-text);
-  padding-right: 12px;
-  text-align: justify;
+  padding-right: 0;
+  text-align: left;
 }
 
-
 .events-desc h3 {
-  font-size: 28px;
+  font-size: clamp(1.5rem, 5vw, 2rem);
   color: var(--accent);
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
 
 .events-desc p {
@@ -139,7 +123,6 @@
   color: var(--accent);
 }
 
-/* Read more link style - styled like the community button with hover effects */
 .read-more {
   display: inline-flex;
   align-items: center;
@@ -177,71 +160,78 @@
   outline-offset: 2px;
 }
 
-/* scrollbar (light) */
 .events-desc::-webkit-scrollbar {
   width: 10px;
 }
+
 .events-desc::-webkit-scrollbar-thumb {
   background: rgba(0,0,0,0.12);
   border-radius: 6px;
 }
 
-/* make font family match Holy detail */
 .events-container, .events-desc {
   font-family: "Noto Sans Ethiopic", sans-serif;
 }
 
-/* On wide screens keep the locked-scroll behavior so images can remain sticky
-   while the text column scrolls independently. */
+@media (min-width: 900px) {
+  .events {
+    min-height: 100vh;
+  }
+
+  .event-list-wrap {
+    margin-top: calc(100vh - 120px);
+    padding: 3rem 2rem 6rem;
+  }
+
+  .event-list {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2.5rem;
+  }
+
+  .events-container {
+    padding: 3rem 2rem 6rem;
+  }
+
+  .events-section {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-bottom: 3.5rem;
+    align-items: flex-start;
+  }
+
+  .events-section.reverse {
+    flex-direction: row-reverse;
+  }
+
+  .events-section .image-wrapper {
+    flex: 0 0 340px;
+    max-width: 100%;
+    margin: 0;
+    align-self: flex-start;
+  }
+
+  .events-desc {
+    font-size: 1.125rem;
+    line-height: 2;
+    padding-right: 12px;
+    text-align: justify;
+  }
+
+  .events-desc h3 {
+    font-size: 1.75rem;
+  }
+}
+
 @media (min-width: 1100px) {
   .events-desc {
-    /* lock height so only text scrolls (keeps image fixed) */
     max-height: calc(100vh - 200px);
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
   }
-}
 
-/* RESPONSIVE - fall back to stacked layout */
-@media (max-width: 900px) {
-  .events-section {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .events-section .image-wrapper {
-    width: 100%;
-    max-width: 380px;
-    margin: 0 auto 10px auto;
-    position: static;
-  }
-
-  .events-desc {
-    font-size: 16px;
-    padding-right: 0;
-  }
-}
-
-/* make image sticky on wide screens only */
-@media (min-width: 1100px) {
   .events-section .image-wrapper {
     position: sticky;
-    top: 120px; /* below navbar */
-  }
-}
-
-/* RESPONSIVE */
-@media (max-width: 768px) {
-  .events {
-    min-height: 70vh;
-  }
-
-  .events-content h2 {
-    font-size: 2rem;
-  }
-
-  .event-list-wrap {
-    margin-top: calc(70vh - 80px);
-    padding: 2rem 1rem 4rem;
+    top: 120px;
   }
 }

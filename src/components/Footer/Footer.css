@@ -10,27 +10,22 @@
     #2c5364
   );
   color: #eaeaea;
-  padding: 4rem 1.5rem 2rem;
+  padding: 3rem 1rem 1.75rem;
 }
 
-/* Container */
 .footer-container {
   max-width: 1200px;
   margin: auto;
-
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  text-align: center;
 }
 
-/* ===============================
-   BRAND
-   =============================== */
-
 .footer-brand h3 {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   margin-bottom: 0.75rem;
-  color: #f4c430; /* gold accent */
+  color: #f4c430;
 }
 
 .footer-brand p {
@@ -38,10 +33,6 @@
   line-height: 1.6;
   color: #d6d6d6;
 }
-
-/* ===============================
-   LINKS
-   =============================== */
 
 .footer-links h4,
 .footer-socials h4 {
@@ -70,14 +61,11 @@
   color: #f4c430;
 }
 
-/* ===============================
-   SOCIALS
-   =============================== */
-
 .social-links {
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
+  align-items: center;
 }
 
 .social-links a {
@@ -89,15 +77,11 @@
 
 .social-links a:hover {
   color: #f4c430;
-  transform: translateX(6px);
+  transform: none;
 }
 
-/* ===============================
-   FOOTER BOTTOM
-   =============================== */
-
 .footer-bottom {
-  margin-top: 3rem;
+  margin-top: 2.5rem;
   padding-top: 1.5rem;
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   text-align: center;
@@ -108,21 +92,22 @@
   color: #cfcfcf;
 }
 
-/* ===============================
-   RESPONSIVE
-   =============================== */
+@media (min-width: 900px) {
+  .footer {
+    padding: 4rem 1.5rem 2rem;
+  }
 
-@media (max-width: 900px) {
   .footer-container {
-    grid-template-columns: 1fr;
-    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    text-align: left;
   }
 
   .social-links {
-    align-items: center;
+    align-items: flex-start;
   }
 
   .social-links a:hover {
-    transform: none;
+    transform: translateX(6px);
   }
 }

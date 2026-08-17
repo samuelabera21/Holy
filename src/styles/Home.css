@@ -22,33 +22,34 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 60vh;
+  min-height: 42vh;
   height: auto;
-  padding: 3.5rem 1rem;
+  padding: 2rem 1rem;
 }
 
 .home .hero-content {
   text-align: center;
   max-width: 1000px;
   width: 100%;
-  padding: 20px;
+  padding: 1rem 0.5rem;
 }
 
 .home .hero h1 {
-  font-size: clamp(1.8rem, 3.5vw, 3rem);
+  font-size: clamp(1.7rem, 7vw, 2.7rem);
   font-weight: bold;
   color: var(--hero-text);
-  margin-bottom: 15px;
+  margin-bottom: 0.9rem;
 }
 
 .home .hero p {
-  font-size: 1.1rem;
-  margin-bottom: 20px;
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
   color: var(--hero-text-muted);
 }
 
 .home .hero-socials a {
-  margin: 0 10px;
+  display: inline-block;
+  margin: 0 0.5rem;
   text-decoration: none;
   font-weight: bold;
   color: var(--hero-link);
@@ -59,60 +60,34 @@ body {
    ============================== */
 
 .home .events {
-  padding: 50px 20px;
+  padding: 2.5rem 1rem;
   background: #fafafa;
   text-align: center;
 }
 
 .home .events h2 {
-  font-size: 2.2rem;
-  margin-bottom: 30px;
+  font-size: clamp(1.7rem, 5vw, 2.2rem);
+  margin-bottom: 1.5rem;
   color: #111;
-}
-
-.home .event-list {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
-}
-
-.home .event-card {
-  background: white;
-  border-radius: 10px;
-  width: 300px;
-  padding: 20px;
-  text-align: left;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.07);
-  transition: 0.3s ease;
-}
-
-.home .event-card:hover {
-  transform: translateY(-5px);
-}
-
-.home .event-card h3 {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-bottom: 8px;
-  color: #222;
 }
 
 .home .event-list,
 .event-list {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 1rem;
+  flex-wrap: nowrap;
 }
 
 .home .event-card,
 .event-card {
   background: white;
-  border-radius: 10px;
-  width: min(340px, 92%);
-  max-width: 340px;
-  padding: 20px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 100%;
+  padding: 1rem;
   text-align: left;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.07);
   transition: transform 180ms ease, box-shadow 180ms ease;
@@ -120,23 +95,30 @@ body {
 
 .home .event-card:hover,
 .event-card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-4px);
   box-shadow: 0 18px 40px rgba(0,0,0,0.08);
+}
+
+.home .event-card h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #222;
 }
 
 .home .quote {
   background: #0d1b47;
   color: white;
-  padding: 30px 20px;
+  padding: 1.5rem 1rem;
   text-align: center;
   font-style: italic;
-  font-size: 1rem;
+  font-size: 0.95rem;
 }
 
 .home .quote cite {
   display: block;
-  margin-top: 8px;
-  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
   font-style: normal;
   font-weight: bold;
 }
@@ -148,49 +130,52 @@ body {
 .home .community,
 .community {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 40px;
-  padding: 60px 20px;
-  flex-wrap: wrap-reverse;
+  gap: 1.25rem;
+  padding: 2rem 1rem;
+  flex-wrap: nowrap;
 }
 
 .community-text {
-  flex: 1 1 320px;
-  min-width: 260px;
+  flex: 1 1 100%;
+  min-width: 0;
+  text-align: center;
 }
 
 .community-text h2 {
-  font-size: clamp(1.4rem, 3.2vw, 2.4rem);
-  margin-bottom: 15px;
+  font-size: clamp(1.5rem, 5vw, 2.2rem);
+  margin-bottom: 0.9rem;
   color: #0d1b47;
 }
 
 .community-text p {
-  font-size: 1.1rem;
-  margin-bottom: 20px;
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
   color: #333;
 }
 
 .community-text button {
-  padding: 12px 25px;
+  padding: 0.8rem 1.5rem;
   background: #0d1b47;
   color: white;
   border: none;
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: bold;
   cursor: pointer;
-  border-radius: 6px;
+  border-radius: 999px;
 }
 
 .community-image {
-  flex: 1 1 320px;
-  min-width: 260px;
-  height: clamp(180px, 28vw, 360px);
+  flex: 1 1 100%;
+  min-width: 0;
+  width: 100%;
+  height: clamp(180px, 40vw, 300px);
   background: url("/history/holy.jpg");
   background-size: cover;
   background-position: center;
-  border-radius: 10px;
+  border-radius: 12px;
 }
 
 /* ==============================
@@ -199,112 +184,96 @@ body {
 
 .home .values,
 .values {
-  padding: 50px 20px;
+  padding: 2.25rem 1rem;
   text-align: center;
 }
 
 .home .values h2,
 .values h2 {
-  font-size: clamp(1.4rem, 3vw, 2.2rem);
-  margin-bottom: 25px;
+  font-size: clamp(1.5rem, 5vw, 2.2rem);
+  margin-bottom: 1.25rem;
   color: #111;
 }
 
 .values-grid {
   display: flex;
   justify-content: center;
-  gap: 25px;
+  gap: 0.75rem;
   flex-wrap: wrap;
 }
 
 .value-card {
   background: white;
   border-radius: 50px;
-  width: clamp(90px, 18vw, 140px);
-  height: clamp(90px, 18vw, 140px);
+  width: 84px;
+  height: 84px;
   display: grid;
   place-items: center;
-  font-size: clamp(0.85rem, 1.4vw, 1rem);
+  font-size: 0.75rem;
   color: #0d1b47;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.08);
 }
 
-/* ==============================
-   RESPONSIVE
-   ============================== */
-
-@media (max-width: 1024px) {
-  .home .hero, .hero { min-height: 50vh; padding: 2.5rem 1rem; }
-  .home .event-card, .event-card { width: min(420px, 92%); }
-}
-
-@media (max-width: 768px) {
-  /* HERO - smaller, tighter on mobile */
-  .home .hero, .hero {
-    min-height: 40vh;
-    padding: 2rem 1rem;
-    align-items: center;
+@media (min-width: 768px) {
+  .home .hero {
+    min-height: 55vh;
+    padding: 3rem 1rem;
   }
 
-  .home .hero h1, .hero h1 { font-size: 1.9rem; }
-  .home .hero p, .hero p { font-size: 1rem; }
-
-  /* EVENTS - stack cards full width */
-  .home .event-list, .event-list { flex-direction: column; align-items: stretch; gap: 16px; }
-
-  .home .event-card, .event-card {
-    width: 100%;
-    max-width: 100%;
-    border-radius: 12px;
-    padding: 16px;
+  .home .hero h1 {
+    font-size: clamp(2.1rem, 4vw, 3.1rem);
   }
 
-  /* Ensure images and content inside event cards flow correctly on mobile */
-  .home .event-list { padding: 0 12px; }
-
-  .home .event-card {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: stretch;
-    overflow: visible;
+  .home .hero p {
+    font-size: 1.1rem;
   }
 
-  .home .event-card img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-    border-radius: 10px;
+  .home .event-list,
+  .event-list {
+    flex-direction: row;
+    gap: 1.5rem;
+    flex-wrap: wrap;
   }
 
-  .home .event-card p {
+  .home .event-card,
+  .event-card {
+    width: min(340px, 100%);
+    max-width: 340px;
+    padding: 1.25rem;
+  }
+
+  .home .community,
+  .community {
+    flex-direction: row;
+    gap: 2.5rem;
+    padding: 4rem 2rem;
+    flex-wrap: wrap;
+  }
+
+  .community-text {
+    flex: 1 1 320px;
     text-align: left;
-    color: #444;
   }
 
-  .home .event-card h3 { font-size: 1.1rem; }
-
-  /* QUOTE - tighter spacing */
-  .home .quote {
-    padding: 20px 14px;
-    font-size: 0.98rem;
+  .community-image {
+    flex: 1 1 320px;
+    min-width: 260px;
+    height: clamp(180px, 28vw, 360px);
   }
 
-  .home .quote cite { font-size: 0.9rem; }
+  .values-grid {
+    gap: 1.25rem;
+  }
 
-  /* COMMUNITY - stack, center text */
-  .home .community, .community { flex-direction: column; gap: 18px; padding: 28px 12px; }
-  .community-text { text-align: center; }
-  .community-image { width: 100%; height: clamp(140px, 32vw, 220px); border-radius: 10px; }
-
-  /* VALUES - single row wrapping and smaller cards */
-  .home .values, .values { padding: 28px 12px; }
-  .values-grid { gap: 12px; justify-content: center; }
-  .value-card { width: 96px; height: 96px; }
+  .value-card {
+    width: clamp(90px, 16vw, 140px);
+    height: clamp(90px, 16vw, 140px);
+    font-size: clamp(0.8rem, 1.4vw, 1rem);
+  }
 }
 
-@media (max-width: 420px) {
-  .home .hero h1, .hero h1 { font-size: 1.6rem; }
-  .value-card { width: 84px; height: 84px; font-size: 0.78rem; }
+@media (min-width: 1024px) {
+  .home .hero {
+    min-height: 60vh;
+  }
 }
