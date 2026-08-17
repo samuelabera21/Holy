@@ -48,18 +48,18 @@
 .video-details-container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 3rem 2rem 5rem;
+  padding: 2.2rem 1rem 4rem;
 }
 
 .video-details-body {
   display: grid;
-  grid-template-columns: minmax(0, 2fr) minmax(240px, 1fr);
-  gap: 2rem;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
   align-items: start;
   background: var(--card-bg);
   border: 1px solid var(--card-border);
   border-radius: 18px;
-  padding: 2rem;
+  padding: 1rem;
   box-shadow: 0 14px 40px rgba(0, 0, 0, 0.12);
 }
 
@@ -136,23 +136,30 @@
 
 .videos-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 2rem;
+  grid-template-columns: 1fr;
+  gap: 1.4rem;
 }
 
-@media (max-width: 900px) {
+@media (min-width: 900px) {
   .video-details-body {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 2fr) minmax(240px, 1fr);
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .videos-grid {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
   }
 }
 
-@media (max-width: 700px) {
+@media (min-width: 700px) {
   .video-details-hero {
-    padding: 4.5rem 1.5rem 2.5rem;
+    padding: 5.5rem 2rem 3rem;
   }
 
   .video-details-container {
-    padding: 2.5rem 1.4rem 4rem;
+    padding: 3rem 2rem 5rem;
   }
 }
 
