@@ -36,7 +36,7 @@
   z-index: 2;
 
   min-height: 70vh;
-  padding: 5.5rem 2rem 3rem;
+  padding: 4.25rem 1rem 2.4rem;
 
   display: flex;
   flex-direction: column;
@@ -69,14 +69,14 @@
 }
 
 .history-hero-content h1 {
-  font-size: clamp(2.6rem, 5vw, 3.6rem);
+  font-size: clamp(2rem, 8vw, 3.6rem);
   margin-bottom: 1rem;
   letter-spacing: 1px;
   text-shadow: 0 14px 30px var(--hero-text-shadow);
 }
 
 .history-hero-content p {
-  font-size: 1.15rem;
+  font-size: 1rem;
   color: var(--hero-text-muted);
   line-height: 1.7;
   text-shadow: 0 10px 25px var(--hero-text-shadow-soft);
@@ -101,8 +101,12 @@
   box-shadow: 0 12px 30px rgba(244, 196, 48, 0.25);
 }
 
-@media (max-width: 700px) {
+@media (min-width: 700px) {
   .history-hero-content {
-    padding: 4.5rem 1.5rem 2.5rem;
+    padding: 5.5rem 2rem 3rem;
+  }
+
+  .history-hero-content p {
+    font-size: 1.15rem;
   }
 }

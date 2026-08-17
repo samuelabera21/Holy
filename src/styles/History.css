@@ -11,22 +11,26 @@
 
 .history-layout {
   display: grid;
-  grid-template-columns: minmax(180px, 220px) minmax(0, 1fr);
-  gap: 2.5rem;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 3rem 2rem 5rem;
+  padding: 2rem 1rem 3rem;
 }
 
 .history-toc {
-  position: sticky;
-  top: 90px;
+  position: static;
   align-self: start;
   background: var(--card-bg);
   border: 1px solid var(--card-border);
   border-radius: 14px;
-  padding: 1.2rem 1rem;
+  padding: 1rem 0.9rem;
   backdrop-filter: blur(6px);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  justify-content: center;
+  text-align: center;
 }
 
 .history-toc h2 {
@@ -55,22 +59,23 @@
   gap: 3rem;
 }
 
-@media (max-width: 900px) {
+@media (min-width: 900px) {
   .history-layout {
-    grid-template-columns: 1fr;
-    padding: 2.5rem 1.5rem 4rem;
+    grid-template-columns: minmax(180px, 220px) minmax(0, 1fr);
+    gap: 2.5rem;
+    padding: 3rem 2rem 5rem;
   }
 
   .history-toc {
-    position: static;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.8rem 1.2rem;
-    justify-content: center;
-    text-align: center;
+    position: sticky;
+    top: 90px;
+    display: block;
+    padding: 1.2rem 1rem;
+    justify-content: initial;
+    text-align: left;
   }
 
   .history-toc h2 {
-    width: 100%;
+    width: auto;
   }
 }
